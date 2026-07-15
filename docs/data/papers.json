@@ -1,0 +1,1328 @@
+[
+  {
+    "id": "P001",
+    "aspect": "A 全球流行病學",
+    "title": "WHO 累計確診人類個案(2003-2025)",
+    "title_en": "WHO cumulative confirmed human cases (2003–2025)",
+    "year": "2025",
+    "subtype": "H5N1",
+    "region_label": "全球",
+    "study_type": "官方監測",
+    "exposure": "家禽",
+    "findings": "官方逐月/逐國累計，權威基準線",
+    "findings_en": "Official monthly/by-country cumulative counts; authoritative baseline",
+    "model_param": "暴露→感染基準、CFR分母",
+    "url": "https://www.who.int/publications/m/item/cumulative-number-of-confirmed-human-cases-for-avian-influenza-a(h5n1)-reported-to-who--2003-2025--19-december-2025",
+    "tags": [
+      "h5n1",
+      "m_surveillance",
+      "host_poultry",
+      "t_cfr"
+    ],
+    "iso": [],
+    "scope": "global"
+  },
+  {
+    "id": "P002",
+    "aspect": "A 全球流行病學",
+    "title": "CDC 全球人類個案曲線(1997-2026)",
+    "title_en": "CDC global human case curve (1997–2026)",
+    "year": "2026",
+    "subtype": "H5N1",
+    "region_label": "全球",
+    "study_type": "官方監測",
+    "exposure": "家禽/野鳥",
+    "findings": "逐年epi curve、國別分布",
+    "findings_en": "Annual epi curve and by-country distribution",
+    "model_param": "時間趨勢、季節性驗證",
+    "url": "https://www.cdc.gov/bird-flu/php/surveillance/chart-epi-curve-ah5n1.html",
+    "tags": [
+      "h5n1",
+      "m_surveillance",
+      "host_poultry",
+      "host_wildbird",
+      "t_seasonality"
+    ],
+    "iso": [],
+    "scope": "global"
+  },
+  {
+    "id": "P003",
+    "aspect": "A 全球流行病學",
+    "title": "Lai 等 全球流行病學系統回顧 1997-2015",
+    "title_en": "Lai et al. global epidemiology systematic review, 1997–2015",
+    "year": "2016",
+    "subtype": "H5N1",
+    "region_label": "全球",
+    "study_type": "系統回顧",
+    "exposure": "家禽",
+    "findings": "高峰2006/2015；67.2%個案在12-3月；CFR 53.5%",
+    "findings_en": "Peaks in 2006/2015; 67.2% of cases in Dec–Mar; CFR 53.5%",
+    "model_param": "季節窗、CFR區域異質",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4933299/",
+    "tags": [
+      "h5n1",
+      "m_sysreview",
+      "host_poultry",
+      "t_seasonality",
+      "t_cfr"
+    ],
+    "iso": [],
+    "scope": "global"
+  },
+  {
+    "id": "P004",
+    "aspect": "A 全球流行病學",
+    "title": "美國 2024-25 人類感染 (Nature Medicine)",
+    "title_en": "US 2024–25 human infections (Nature Medicine)",
+    "year": "2025",
+    "subtype": "H5N1",
+    "region_label": "美國",
+    "study_type": "病例系列",
+    "exposure": "乳牛/家禽",
+    "findings": "70例：乳牛41/商業家禽24/後院2；無人傳人",
+    "findings_en": "70 cases: dairy 41 / commercial poultry 24 / backyard 2; no human-to-human",
+    "model_param": "暴露源分層權重",
+    "url": "https://www.nature.com/articles/s41591-025-03905-2",
+    "tags": [
+      "h5n1",
+      "host_dairycattle",
+      "host_commercial",
+      "host_backyard",
+      "m_casereport",
+      "t_h2h",
+      "exp_occup"
+    ],
+    "iso": [
+      "USA"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P005",
+    "aspect": "A 全球流行病學",
+    "title": "C&EN 2025前夕感染與研究現況",
+    "title_en": "C&EN: state of H5N1 infections and research on the eve of 2025",
+    "year": "2024",
+    "subtype": "H5N1",
+    "region_label": "全球",
+    "study_type": "綜述",
+    "exposure": "多",
+    "findings": "感染與研究現況整理",
+    "findings_en": "Overview of the infection and research landscape",
+    "model_param": "背景脈絡",
+    "url": "https://cen.acs.org/biological-chemistry/infectious-disease/state-H5N1-infections-research-2025/102/web/2024/12",
+    "tags": [
+      "h5n1",
+      "m_review"
+    ],
+    "iso": [],
+    "scope": "global"
+  },
+  {
+    "id": "P006",
+    "aspect": "B 哺乳類跨物種",
+    "title": "2.3.4.4b 哺乳類適應與大流行風險回顧",
+    "title_en": "Review of 2.3.4.4b mammalian adaptation and pandemic risk",
+    "year": "2025",
+    "subtype": "H5N1 2.3.4.4b",
+    "region_label": "全球",
+    "study_type": "綜述",
+    "exposure": "哺乳類",
+    "findings": "溢出海獅/貓/水貂/牛；PB2 E627K等突變即現；HA未轉人型",
+    "findings_en": "Spillover to sea lions/cats/mink/cattle; mutations like PB2 E627K present; HA not yet human-type",
+    "model_param": "適應風險、宿主池擴大",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12137919/",
+    "tags": [
+      "h5n1",
+      "clade_2344b",
+      "t_mammadapt",
+      "pb2_e627k",
+      "ha_a26",
+      "t_pandemic",
+      "t_crossspecies",
+      "m_review",
+      "host_cat",
+      "host_mink",
+      "host_marine"
+    ],
+    "iso": [],
+    "scope": "global"
+  },
+  {
+    "id": "P007",
+    "aspect": "B 哺乳類跨物種",
+    "title": "Frontiers 2.3.4.4b 跨物種/致病/大流行",
+    "title_en": "Frontiers: 2.3.4.4b cross-species, pathogenesis, pandemic risk",
+    "year": "2025",
+    "subtype": "H5N1 2.3.4.4b",
+    "region_label": "全球",
+    "study_type": "綜述",
+    "exposure": "跨物種",
+    "findings": "跨物種傳播、致病機轉、大流行風險",
+    "findings_en": "Cross-species transmission, pathogenesis, and pandemic risk",
+    "model_param": "綜述骨架",
+    "url": "https://www.frontiersin.org/journals/cellular-and-infection-microbiology/articles/10.3389/fcimb.2025.1625665/full",
+    "tags": [
+      "h5n1",
+      "clade_2344b",
+      "t_crossspecies",
+      "t_pandemic",
+      "m_review"
+    ],
+    "iso": [],
+    "scope": "global"
+  },
+  {
+    "id": "P008",
+    "aspect": "B 哺乳類跨物種",
+    "title": "J Virol 2.3.4.4b knowns/unknowns",
+    "title_en": "J Virol: 2.3.4.4b knowns and unknowns",
+    "year": "2025",
+    "subtype": "H5N1 2.3.4.4b",
+    "region_label": "全球",
+    "study_type": "綜述",
+    "exposure": "跨物種",
+    "findings": "已知/未知/挑戰清單",
+    "findings_en": "Inventory of knowns, unknowns, and challenges",
+    "model_param": "缺口盤點",
+    "url": "https://journals.asm.org/doi/10.1128/jvi.00424-25",
+    "tags": [
+      "h5n1",
+      "clade_2344b",
+      "t_crossspecies",
+      "t_gaps",
+      "m_review"
+    ],
+    "iso": [],
+    "scope": "global"
+  },
+  {
+    "id": "P009",
+    "aspect": "B 哺乳類跨物種",
+    "title": "CDC EID 乳牛與貓感染 2.3.4.4b",
+    "title_en": "CDC EID: dairy cattle and cat infection with 2.3.4.4b",
+    "year": "2024",
+    "subtype": "H5N1 2.3.4.4b",
+    "region_label": "美國",
+    "study_type": "個案報告",
+    "exposure": "乳牛/貓",
+    "findings": "乳牛與農場貓同時感染首發",
+    "findings_en": "First co-occurring infection of dairy cattle and farm cats",
+    "model_param": "環境/食物鏈節點",
+    "url": "https://wwwnc.cdc.gov/eid/article/30/7/24-0508_article",
+    "tags": [
+      "h5n1",
+      "clade_2344b",
+      "host_dairycattle",
+      "host_cat",
+      "m_casereport",
+      "t_crossspecies"
+    ],
+    "iso": [
+      "USA"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P010",
+    "aspect": "B 哺乳類跨物種",
+    "title": "H5N1 演化適應人傳與監測缺口",
+    "title_en": "H5N1 evolution toward human transmission and surveillance gaps",
+    "year": "2025",
+    "subtype": "H5N1",
+    "region_label": "全球",
+    "study_type": "綜述",
+    "exposure": "跨物種",
+    "findings": "人傳適應演化與監測落差",
+    "findings_en": "Adaptive evolution for human transmission and surveillance shortfalls",
+    "model_param": "監測參數設計",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378111925005128",
+    "tags": [
+      "h5n1",
+      "t_mammadapt",
+      "t_h2h",
+      "t_gaps",
+      "m_review"
+    ],
+    "iso": [],
+    "scope": "global"
+  },
+  {
+    "id": "P011",
+    "aspect": "C 乳牛疫情/人類個案",
+    "title": "MMWR 美國乳牛疫情與首兩例人類個案",
+    "title_en": "MMWR: US dairy outbreak and first two human cases",
+    "year": "2024",
+    "subtype": "H5N1 B3.13",
+    "region_label": "美國",
+    "study_type": "病例報告",
+    "exposure": "乳牛/擠乳",
+    "findings": "首證牛→人；生乳為新途徑",
+    "findings_en": "First evidence of cattle-to-human; raw milk as a new route",
+    "model_param": "乳牛擠乳介面",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11152367/",
+    "tags": [
+      "h5n1",
+      "geno_b313",
+      "host_dairycattle",
+      "exp_milking",
+      "exp_rawmilk",
+      "m_casereport",
+      "exp_occup"
+    ],
+    "iso": [
+      "USA"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P012",
+    "aspect": "C 乳牛疫情/人類個案",
+    "title": "mGem 乳牛 H5N1 傳播與暴露風險",
+    "title_en": "mGem: dairy cattle H5N1 transmission and exposure risk",
+    "year": "2025",
+    "subtype": "H5N1",
+    "region_label": "美國",
+    "study_type": "綜述",
+    "exposure": "乳牛",
+    "findings": "群內高效傳播；起於野鳥/污染物",
+    "findings_en": "Efficient within-herd spread; originating from wild birds/fomites",
+    "model_param": "群內vs群間率分離",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11898566/",
+    "tags": [
+      "h5n1",
+      "host_dairycattle",
+      "host_wildbird",
+      "exp_fomite",
+      "m_review"
+    ],
+    "iso": [
+      "USA"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P013",
+    "aspect": "C 乳牛疫情/人類個案",
+    "title": "乳牛 H5N1 公衛/整備意涵",
+    "title_en": "Dairy cattle H5N1: public-health and preparedness implications",
+    "year": "2025",
+    "subtype": "H5N1",
+    "region_label": "美國",
+    "study_type": "綜述",
+    "exposure": "乳牛/家禽",
+    "findings": "B3.13(牛)/D1.1(禽)兩基因型",
+    "findings_en": "Two genotypes: B3.13 (cattle) / D1.1 (poultry)",
+    "model_param": "基因型-宿主-嚴重度",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12321667/",
+    "tags": [
+      "h5n1",
+      "geno_b313",
+      "geno_d11",
+      "host_dairycattle",
+      "host_poultry",
+      "t_pandemic",
+      "m_review"
+    ],
+    "iso": [
+      "USA"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P014",
+    "aspect": "C 乳牛疫情/人類個案",
+    "title": "零售牛奶監測 US 2024-2025",
+    "title_en": "Retail milk surveillance, US 2024–2025",
+    "year": "2025",
+    "subtype": "H5N1",
+    "region_label": "美國",
+    "study_type": "環境監測",
+    "exposure": "生乳",
+    "findings": "零售奶36%檢出病毒RNA",
+    "findings_en": "36% of retail milk positive for viral RNA",
+    "model_param": "環境負荷proxy",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12928245/",
+    "tags": [
+      "h5n1",
+      "exp_rawmilk",
+      "m_envsampling"
+    ],
+    "iso": [
+      "USA"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P015",
+    "aspect": "C 乳牛疫情/人類個案",
+    "title": "生乳/起司病毒穩定性與傳播 (Nature Med)",
+    "title_en": "Viral stability and transmission in raw milk/cheese (Nature Med)",
+    "year": "2025",
+    "subtype": "H5N1",
+    "region_label": "美國",
+    "study_type": "實驗",
+    "exposure": "生乳/食物",
+    "findings": "病毒在生乳穩定；雪貂餵生乳致感染",
+    "findings_en": "Virus stable in raw milk; ferrets infected via raw-milk feeding",
+    "model_param": "食物途徑劑量反應",
+    "url": "https://www.nature.com/articles/s41591-025-04010-0",
+    "tags": [
+      "h5n1",
+      "exp_rawmilk",
+      "exp_food",
+      "host_ferret",
+      "m_experiment"
+    ],
+    "iso": [
+      "USA"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P016",
+    "aspect": "D 重症/D1.1",
+    "title": "CDC Louisiana 病例基因序列",
+    "title_en": "CDC: Louisiana case genomic sequence",
+    "year": "2024",
+    "subtype": "H5N1 D1.1",
+    "region_label": "美國",
+    "study_type": "個案報告",
+    "exposure": "後院家禽",
+    "findings": "美洲首例死亡，有共病",
+    "findings_en": "First fatal case in the Americas, with comorbidities",
+    "model_param": "嚴重度上限、後院禽介面",
+    "url": "https://www.cdc.gov/bird-flu/spotlights/h5n1-response-12232024.html",
+    "tags": [
+      "h5n1",
+      "geno_d11",
+      "host_backyard",
+      "m_casereport",
+      "t_cfr"
+    ],
+    "iso": [
+      "USA"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P017",
+    "aspect": "D 重症/D1.1",
+    "title": "Medscape 美國首例 H5N1 死亡",
+    "title_en": "Medscape: first US H5N1 death",
+    "year": "2025",
+    "subtype": "H5N1 D1.1",
+    "region_label": "美國",
+    "study_type": "評述",
+    "exposure": "後院家禽",
+    "findings": "臨床脈絡整理",
+    "findings_en": "Clinical context summary",
+    "model_param": "重症敘事",
+    "url": "https://www.medscape.com/viewarticle/first-human-h5n1-death-united-states-just-beginning-2025a100053i",
+    "tags": [
+      "h5n1",
+      "geno_d11",
+      "host_backyard",
+      "t_cfr",
+      "m_review"
+    ],
+    "iso": [
+      "USA"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P018",
+    "aspect": "D 重症/D1.1",
+    "title": "STAT 加拿大 BC 青少年重症",
+    "title_en": "STAT: severe adolescent case in BC, Canada",
+    "year": "2024",
+    "subtype": "H5N1 D1.1",
+    "region_label": "加拿大",
+    "study_type": "新聞/基因",
+    "exposure": "未知",
+    "findings": "青少年ICU、無已知暴露、帶適應突變",
+    "findings_en": "Teen in ICU, no known exposure, carrying adaptive mutations",
+    "model_param": "未知暴露情境、突變監測",
+    "url": "https://www.statnews.com/2024/11/18/bird-flu-pandemic-h5n1-virus-mutations-canada-genomic-analysis/",
+    "tags": [
+      "h5n1",
+      "geno_d11",
+      "t_mammadapt",
+      "t_cfr",
+      "t_gaps"
+    ],
+    "iso": [
+      "CAN"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P019",
+    "aspect": "D 重症/D1.1",
+    "title": "CDC EID BC 野鳥與人類 H5N1",
+    "title_en": "CDC EID: wild birds and human H5N1 in BC",
+    "year": "2024",
+    "subtype": "H5N1 D1.1",
+    "region_label": "加拿大",
+    "study_type": "個案報告",
+    "exposure": "野鳥",
+    "findings": "野鳥-人連結",
+    "findings_en": "Wild bird–human link",
+    "model_param": "野鳥暴露路徑",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12123910/",
+    "tags": [
+      "h5n1",
+      "geno_d11",
+      "host_wildbird",
+      "m_casereport"
+    ],
+    "iso": [
+      "CAN"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P020",
+    "aspect": "D 重症/D1.1",
+    "title": "bioRxiv 北美 D1.1 重組病毒出現",
+    "title_en": "bioRxiv: emergence of a D1.1 reassortant in North America",
+    "year": "2025",
+    "subtype": "H5N1 D1.1",
+    "region_label": "北美",
+    "study_type": "病毒學",
+    "exposure": "野鳥/家禽",
+    "findings": "D1.1重組與擴散",
+    "findings_en": "D1.1 reassortment and spread",
+    "model_param": "基因型時空動態",
+    "url": "https://www.biorxiv.org/content/10.64898/2025.12.19.695329v1.full",
+    "tags": [
+      "h5n1",
+      "geno_d11",
+      "host_wildbird",
+      "host_poultry"
+    ],
+    "iso": [],
+    "scope": "region"
+  },
+  {
+    "id": "P021",
+    "aspect": "D 重症/D1.1",
+    "title": "Nature Med D1.1 於北美野鳥迅速擴張",
+    "title_en": "Nature Med: rapid D1.1 expansion in North American wild birds",
+    "year": "2026",
+    "subtype": "H5N1 D1.1",
+    "region_label": "北美",
+    "study_type": "時空分析",
+    "exposure": "野鳥遷徙",
+    "findings": "隨2024遷徙季迅速擴張",
+    "findings_en": "Rapid expansion during the 2024 migratory season",
+    "model_param": "野鳥遷徙擴散(116伏筆)",
+    "url": "https://www.nature.com/articles/s41591-026-04300-1",
+    "tags": [
+      "h5n1",
+      "geno_d11",
+      "host_wildbird",
+      "m_spatiotemp",
+      "t_seasonality"
+    ],
+    "iso": [],
+    "scope": "region"
+  },
+  {
+    "id": "P022",
+    "aspect": "E 職業暴露/血清",
+    "title": "MMWR Michigan/Colorado 乳牛工人血清",
+    "title_en": "MMWR: Michigan/Colorado dairy worker serology",
+    "year": "2024",
+    "subtype": "H5",
+    "region_label": "美國",
+    "study_type": "血清調查",
+    "exposure": "乳牛",
+    "findings": "近期感染血清證據含無症狀",
+    "findings_en": "Serologic evidence of recent infection, including asymptomatic",
+    "model_param": "無症狀比例、低估",
+    "url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7344a3.htm",
+    "tags": [
+      "h5_generic",
+      "host_dairycattle",
+      "exp_occup",
+      "m_serosurvey",
+      "t_gaps"
+    ],
+    "iso": [
+      "USA"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P023",
+    "aspect": "E 職業暴露/血清",
+    "title": "職業風險 1997-2019 跨生態介面回顧",
+    "title_en": "Occupational risk across ecological interfaces, 1997–2019 review",
+    "year": "2025",
+    "subtype": "多",
+    "region_label": "全球",
+    "study_type": "系統回顧",
+    "exposure": "家禽/野鳥/市場",
+    "findings": "介面別職業風險分層",
+    "findings_en": "Occupational risk stratified by interface",
+    "model_param": "介面風險權重",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12195780/",
+    "tags": [
+      "exp_occup",
+      "host_poultry",
+      "host_wildbird",
+      "exp_lpm",
+      "m_sysreview"
+    ],
+    "iso": [],
+    "scope": "global"
+  },
+  {
+    "id": "P024",
+    "aspect": "E 職業暴露/血清",
+    "title": "職業族群暴露型態與風險回顧",
+    "title_en": "Review of occupational exposure patterns and risk",
+    "year": "2025",
+    "subtype": "多",
+    "region_label": "全球",
+    "study_type": "綜述",
+    "exposure": "職業族群",
+    "findings": "直接接觸/呼吸/環境三途徑",
+    "findings_en": "Three routes: direct contact / respiratory / environmental",
+    "model_param": "三途徑對應pathway",
+    "url": "https://www.mdpi.com/2306-7381/12/8/704",
+    "tags": [
+      "exp_occup",
+      "exp_aerosol",
+      "exp_fomite",
+      "m_review"
+    ],
+    "iso": [],
+    "scope": "global"
+  },
+  {
+    "id": "P025",
+    "aspect": "E 職業暴露/血清",
+    "title": "野鳥/家禽/人介面血清證據",
+    "title_en": "Serologic evidence at the wild bird/poultry/human interface",
+    "year": "2021",
+    "subtype": "H5/H7",
+    "region_label": "歐洲",
+    "study_type": "血清調查",
+    "exposure": "介面",
+    "findings": "介面血清流行率",
+    "findings_en": "Seroprevalence at the interface",
+    "model_param": "介面暴露基準",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8539340/",
+    "tags": [
+      "h5n1",
+      "host_poultry",
+      "exp_occup",
+      "m_serosurvey"
+    ],
+    "iso": [
+      "BGD"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P026",
+    "aspect": "E 職業暴露/血清",
+    "title": "孟加拉家禽工人 H5N1 血清 2009",
+    "title_en": "Bangladesh poultry-worker H5N1 serology, 2009",
+    "year": "2013",
+    "subtype": "H5N1",
+    "region_label": "孟加拉",
+    "study_type": "血清調查",
+    "exposure": "家禽",
+    "findings": "工人抗體盛行率",
+    "findings_en": "Antibody prevalence among workers",
+    "model_param": "職業基線",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3764173/",
+    "tags": [
+      "h5_generic",
+      "host_wildbird",
+      "host_poultry",
+      "exp_occup",
+      "m_serosurvey"
+    ],
+    "iso": [],
+    "scope": "region"
+  },
+  {
+    "id": "P027",
+    "aspect": "E 職業暴露/血清",
+    "title": "越南河內活禽市場工人 H5/H9 血清",
+    "title_en": "Hanoi live-poultry-market worker H5/H9 serology",
+    "year": "2012",
+    "subtype": "H5/H9",
+    "region_label": "越南",
+    "study_type": "血清調查",
+    "exposure": "活禽市場",
+    "findings": "市場工人血清陽性",
+    "findings_en": "Seropositivity among market workers",
+    "model_param": "活禽市場介面",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3424239/",
+    "tags": [
+      "h5_generic",
+      "exp_lpm",
+      "exp_occup",
+      "m_serosurvey"
+    ],
+    "iso": [
+      "VNM"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P028",
+    "aspect": "E 職業暴露/血清",
+    "title": "OSHA 禽流感職業安全概覽",
+    "title_en": "OSHA avian influenza occupational safety overview",
+    "year": "-",
+    "subtype": "多",
+    "region_label": "美國",
+    "study_type": "指引",
+    "exposure": "職業",
+    "findings": "職安防護指引",
+    "findings_en": "Occupational safety and protection guidance",
+    "model_param": "防護→暴露折減因子",
+    "url": "https://www.osha.gov/avian-flu",
+    "tags": [
+      "exp_occup",
+      "t_occprotect"
+    ],
+    "iso": [
+      "USA"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P029",
+    "aspect": "F 其他亞型",
+    "title": "活禽市場監測作為早期預警",
+    "title_en": "Live-poultry-market surveillance as early warning",
+    "year": "2016",
+    "subtype": "H7N9/H5N6/H9N2",
+    "region_label": "中國",
+    "study_type": "監測",
+    "exposure": "活禽市場",
+    "findings": "LPM監測=人類感染早期預警",
+    "findings_en": "LPM surveillance as early warning for human infection",
+    "model_param": "監測catchment設計",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5034097/",
+    "tags": [
+      "h7n9",
+      "h5n6",
+      "h9n2",
+      "exp_lpm",
+      "m_surveillance"
+    ],
+    "iso": [
+      "CHN"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P030",
+    "aspect": "F 其他亞型",
+    "title": "活禽市場工人 AIV 感染 2013-2016",
+    "title_en": "Live-poultry-market worker AIV infection, 2013–2016",
+    "year": "2018",
+    "subtype": "多",
+    "region_label": "中國",
+    "study_type": "血清/監測",
+    "exposure": "活禽市場",
+    "findings": "工人多亞型感染",
+    "findings_en": "Multi-subtype infection among workers",
+    "model_param": "職業多重暴露",
+    "url": "https://wwwnc.cdc.gov/eid/article/24/7/17-2059_article",
+    "tags": [
+      "exp_lpm",
+      "exp_occup",
+      "m_serosurvey",
+      "m_surveillance"
+    ],
+    "iso": [
+      "CHN"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P031",
+    "aspect": "F 其他亞型",
+    "title": "活禽市場空氣分離 H5N6/H7N9/H9N2",
+    "title_en": "Airborne isolation of H5N6/H7N9/H9N2 in live poultry markets",
+    "year": "2016",
+    "subtype": "H5N6/H7N9/H9N2",
+    "region_label": "中國",
+    "study_type": "環境採樣",
+    "exposure": "活禽市場空氣",
+    "findings": "市場空氣中可分離活病毒",
+    "findings_en": "Live virus isolable from market air",
+    "model_param": "室內氣膠暴露",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5015459/",
+    "tags": [
+      "h5n6",
+      "h7n9",
+      "h9n2",
+      "exp_lpm",
+      "exp_aerosol",
+      "m_envsampling"
+    ],
+    "iso": [
+      "CHN"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P032",
+    "aspect": "F 其他亞型",
+    "title": "H10N3 於雞群獲得空氣傳播能力",
+    "title_en": "H10N3 acquires airborne transmissibility in chickens",
+    "year": "2024",
+    "subtype": "H10N3",
+    "region_label": "中國",
+    "study_type": "實驗",
+    "exposure": "家禽",
+    "findings": "新亞型獲空氣傳播",
+    "findings_en": "Novel subtype gains airborne transmission",
+    "model_param": "新興亞型威脅",
+    "url": "https://journals.asm.org/doi/10.1128/mbio.02363-24",
+    "tags": [
+      "h10n3",
+      "host_poultry",
+      "exp_aerosol",
+      "m_experiment"
+    ],
+    "iso": [
+      "CHN"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P033",
+    "aspect": "G 傳播途徑/氣膠",
+    "title": "風媒散布 LPAI 至環境",
+    "title_en": "Windborne dispersal of LPAI into the environment",
+    "year": "2015",
+    "subtype": "LPAI",
+    "region_label": "荷/美",
+    "study_type": "環境採樣",
+    "exposure": "氣膠",
+    "findings": "下風60m檢出；病毒量與距離反比",
+    "findings_en": "Detected 60 m downwind; viral load inversely related to distance",
+    "model_param": "短程氣膠核衰減",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4422664/",
+    "tags": [
+      "lpai",
+      "exp_aerosol",
+      "m_envsampling"
+    ],
+    "iso": [
+      "NLD",
+      "USA"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P034",
+    "aspect": "G 傳播途徑/氣膠",
+    "title": "農場間空氣傳播強證據",
+    "title_en": "Strong evidence of farm-to-farm airborne spread",
+    "year": "2025",
+    "subtype": "HPAI",
+    "region_label": "-",
+    "study_type": "綜述",
+    "exposure": "氣膠",
+    "findings": "農場間空氣傳播",
+    "findings_en": "Airborne transmission between farms",
+    "model_param": "群間氣膠路徑",
+    "url": "https://www.news-medical.net/news/20250224/Study-finds-strong-evidence-that-bird-flu-spreads-through-the-air-between-farms.aspx",
+    "tags": [
+      "hpai",
+      "exp_aerosol",
+      "m_review"
+    ],
+    "iso": [],
+    "scope": "none"
+  },
+  {
+    "id": "P035",
+    "aspect": "G 傳播途徑/氣膠",
+    "title": "荷蘭風媒 HPAI 量化風險評估",
+    "title_en": "Dutch windborne HPAI quantitative risk assessment",
+    "year": "2024",
+    "subtype": "HPAI",
+    "region_label": "荷蘭",
+    "study_type": "量化風險評估",
+    "exposure": "風媒/野鳥糞",
+    "findings": "野鳥糞粒經風傳至禽場QRA",
+    "findings_en": "QRA of wind-carried wild-bird fecal particles reaching poultry farms",
+    "model_param": "風媒QRA方法",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11279698/",
+    "tags": [
+      "hpai",
+      "exp_aerosol",
+      "exp_fomite",
+      "host_wildbird",
+      "m_qra"
+    ],
+    "iso": [
+      "NLD"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P036",
+    "aspect": "G 傳播途徑/氣膠",
+    "title": "塵粒攜帶 HPAI 長距離空氣傳播模型",
+    "title_en": "Dust-borne HPAI long-distance airborne transmission model",
+    "year": "2023",
+    "subtype": "HPAI",
+    "region_label": "-",
+    "study_type": "數值模型",
+    "exposure": "塵粒/氣膠",
+    "findings": "塵粒長距離傳播數值模型",
+    "findings_en": "Numerical model of long-distance dust-particle transmission",
+    "model_param": "長程核建模法",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10533824/",
+    "tags": [
+      "hpai",
+      "exp_aerosol",
+      "m_spatialmodel"
+    ],
+    "iso": [],
+    "scope": "none"
+  },
+  {
+    "id": "P037",
+    "aspect": "G 傳播途徑/氣膠",
+    "title": "法國禽場空氣偵測 H5N8 基因體",
+    "title_en": "Airborne H5N8 genome detection at French poultry farms",
+    "year": "2018",
+    "subtype": "H5N8",
+    "region_label": "法國",
+    "study_type": "環境採樣",
+    "exposure": "氣膠",
+    "findings": "禽場空氣可測病毒",
+    "findings_en": "Virus detectable in poultry-farm air",
+    "model_param": "環境採樣驗證",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5816786/",
+    "tags": [
+      "h5n8",
+      "host_poultry",
+      "exp_aerosol",
+      "m_envsampling"
+    ],
+    "iso": [
+      "FRA"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P038",
+    "aspect": "G 傳播途徑/氣膠",
+    "title": "基因+氣象證據 H5N1 風媒 8km",
+    "title_en": "Genomic and meteorological evidence for 8 km windborne H5N1",
+    "year": "2025",
+    "subtype": "H5N1",
+    "region_label": "-",
+    "study_type": "基因/氣象",
+    "exposure": "風媒",
+    "findings": "支持8km風媒",
+    "findings_en": "Supports windborne spread up to 8 km",
+    "model_param": "長程核上限半徑",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12412978/",
+    "tags": [
+      "h5n1",
+      "exp_aerosol",
+      "m_kernel"
+    ],
+    "iso": [],
+    "scope": "none"
+  },
+  {
+    "id": "P039",
+    "aspect": "H 空間建模",
+    "title": "Modelling the species jump (人類感染風險)",
+    "title_en": "Modelling the species jump (human infection risk)",
+    "year": "2015",
+    "subtype": "多",
+    "region_label": "全球",
+    "study_type": "建模",
+    "exposure": "家禽",
+    "findings": "暴露=感染動物×易感人群；β與contact ratio",
+    "findings_en": "Exposure = infected animals × susceptible humans; β and contact ratio",
+    "model_param": "重力/暴露乘積理論基礎",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4593676/",
+    "tags": [
+      "m_spatialmodel",
+      "host_poultry",
+      "t_crossspecies",
+      "m_kernel"
+    ],
+    "iso": [],
+    "scope": "global"
+  },
+  {
+    "id": "P040",
+    "aspect": "H 空間建模",
+    "title": "Mapping AI risk 家禽-野鳥介面",
+    "title_en": "Mapping AI risk at the poultry–wild bird interface",
+    "year": "2013",
+    "subtype": "H5N1",
+    "region_label": "中國",
+    "study_type": "建模",
+    "exposure": "家禽-野鳥介面",
+    "findings": "介面熱點製圖",
+    "findings_en": "Interface hotspot mapping",
+    "model_param": "熱點圖層方法",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3854848/",
+    "tags": [
+      "h5n1",
+      "host_poultry",
+      "host_wildbird",
+      "m_spatialmodel"
+    ],
+    "iso": [
+      "CHN"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P041",
+    "aspect": "H 空間建模",
+    "title": "USGS 美國家禽 AI 風險建模",
+    "title_en": "USGS: US poultry AI risk modelling",
+    "year": "-",
+    "subtype": "多",
+    "region_label": "美國",
+    "study_type": "建模",
+    "exposure": "野鳥+家禽",
+    "findings": "遷徙鳥+家禽+環境綜合風險",
+    "findings_en": "Integrated risk from migratory birds + poultry + environment",
+    "model_param": "多圖層整合",
+    "url": "https://www.usgs.gov/centers/eesc/science/modeling-avian-influenza-risk-poultry-us",
+    "tags": [
+      "host_poultry",
+      "host_wildbird",
+      "m_spatialmodel"
+    ],
+    "iso": [
+      "USA"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P042",
+    "aspect": "H 空間建模",
+    "title": "Cuba 人-動物-環境介面傳播建模",
+    "title_en": "Cuba: human–animal–environment interface transmission modelling",
+    "year": "2024",
+    "subtype": "多",
+    "region_label": "古巴",
+    "study_type": "建模",
+    "exposure": "人-動物-環境",
+    "findings": "密度依賴風險模型(承species jump)",
+    "findings_en": "Density-dependent risk model (building on the species jump)",
+    "model_param": "One Health建模範例",
+    "url": "https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2024.1415559/full",
+    "tags": [
+      "m_spatialmodel",
+      "t_onehealth",
+      "t_crossspecies"
+    ],
+    "iso": [
+      "CUB"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P043",
+    "aspect": "H 空間建模",
+    "title": "明尼蘇達 H5N2 禽場間空間傳播 2015",
+    "title_en": "Minnesota H5N2 between-farm spatial spread, 2015",
+    "year": "2018",
+    "subtype": "H5N2",
+    "region_label": "美國",
+    "study_type": "建模",
+    "exposure": "禽場間",
+    "findings": "power-law核 r0=7.02km, alpha=2.46",
+    "findings_en": "Power-law kernel r0=7.02 km, alpha=2.46",
+    "model_param": "transmission kernel估計法直接可移植",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6150525/",
+    "tags": [
+      "h5n2",
+      "host_poultry",
+      "m_spatialmodel",
+      "m_kernel"
+    ],
+    "iso": [
+      "USA"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P044",
+    "aspect": "H 空間建模",
+    "title": "加拿大野生動物 H5N1 時空/生態 One Health",
+    "title_en": "Canada wildlife H5N1 spatiotemporal/ecological One Health",
+    "year": "2026",
+    "subtype": "H5N1",
+    "region_label": "加拿大",
+    "study_type": "時空分析",
+    "exposure": "野生動物",
+    "findings": "時空+生態因子監測分析",
+    "findings_en": "Spatiotemporal and ecological-factor surveillance analysis",
+    "model_param": "環境協變量選擇",
+    "url": "https://arxiv.org/pdf/2605.22352",
+    "tags": [
+      "h5n1",
+      "host_mammal",
+      "m_spatiotemp",
+      "t_onehealth"
+    ],
+    "iso": [
+      "CAN"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P045",
+    "aspect": "I One Health/政策",
+    "title": "歐盟 One Health 因應人畜共通禽流感",
+    "title_en": "EU One Health response to zoonotic avian influenza",
+    "year": "-",
+    "subtype": "多",
+    "region_label": "歐盟",
+    "study_type": "政策",
+    "exposure": "跨部門",
+    "findings": "整合監測、CVO-CMO聯席、2024演習",
+    "findings_en": "Integrated surveillance, joint CVO-CMO, 2024 exercise",
+    "model_param": "治理案例(117)",
+    "url": "https://health.ec.europa.eu/one-health/zoonotic-threats/one-health-approach-zoonotic-avian-influenza_en",
+    "tags": [
+      "t_onehealth",
+      "t_pandemic",
+      "t_intlreg"
+    ],
+    "iso": [],
+    "scope": "region"
+  },
+  {
+    "id": "P046",
+    "aspect": "I One Health/政策",
+    "title": "保護人-動物介面工作者 H5N1整備",
+    "title_en": "Protecting human–animal interface workers: H5N1 preparedness",
+    "year": "2025",
+    "subtype": "H5N1",
+    "region_label": "全球",
+    "study_type": "政策/綜述",
+    "exposure": "職業族群",
+    "findings": "職業族群首要保護；行為介入",
+    "findings_en": "Occupational groups as priority protection; behavioral interventions",
+    "model_param": "脆弱族群定義與介入(117)",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12318486/",
+    "tags": [
+      "h5n1",
+      "exp_occup",
+      "t_occprotect",
+      "t_pandemic",
+      "m_review"
+    ],
+    "iso": [],
+    "scope": "global"
+  },
+  {
+    "id": "P047",
+    "aspect": "I One Health/政策",
+    "title": "NETEC 2025 整備關鍵時刻",
+    "title_en": "NETEC: 2025, a pivotal moment for pandemic preparedness",
+    "year": "2025",
+    "subtype": "H5N1",
+    "region_label": "全球",
+    "study_type": "評述",
+    "exposure": "多",
+    "findings": "整備關鍵時刻論述",
+    "findings_en": "Argument for a pivotal preparedness moment",
+    "model_param": "情境設定(118)",
+    "url": "https://netec.org/2025/06/17/avian-influenza-in-2025-why-this-moment-matters-for-pandemic-preparedness/",
+    "tags": [
+      "h5n1",
+      "t_pandemic",
+      "m_review"
+    ],
+    "iso": [],
+    "scope": "global"
+  },
+  {
+    "id": "P048",
+    "aspect": "I One Health/政策",
+    "title": "減緩人畜共通流感整備策略(社論)",
+    "title_en": "Editorial: strategies to mitigate zoonotic influenza; preparedness",
+    "year": "2025",
+    "subtype": "人畜共通流感",
+    "region_label": "全球",
+    "study_type": "社論",
+    "exposure": "多",
+    "findings": "綜合整備框架",
+    "findings_en": "Comprehensive preparedness framework",
+    "model_param": "韌性評估架構(118)",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12441160/",
+    "tags": [
+      "t_pandemic",
+      "t_onehealth",
+      "m_review"
+    ],
+    "iso": [],
+    "scope": "global"
+  },
+  {
+    "id": "P049",
+    "aspect": "I One Health/政策",
+    "title": "三途徑防止溢出、強化整備",
+    "title_en": "Three routes to prevent spillover and strengthen preparedness",
+    "year": "2025",
+    "subtype": "H5N1",
+    "region_label": "全球",
+    "study_type": "評述",
+    "exposure": "環境",
+    "findings": "環境監測+工程+溝通",
+    "findings_en": "Environmental monitoring + engineering + communication",
+    "model_param": "介入組合",
+    "url": "https://globalbiodefense.com/2025/09/08/prevent-avian-influenza-spillovers-pandemic-preparedness/",
+    "tags": [
+      "h5n1",
+      "t_crossspecies",
+      "exp_fomite",
+      "t_occprotect",
+      "m_review"
+    ],
+    "iso": [],
+    "scope": "global"
+  },
+  {
+    "id": "P050",
+    "aspect": "I One Health/政策",
+    "title": "2025 WHA 大流行協定與 IHR 修訂(社論)",
+    "title_en": "Editorial: 2025 WHA pandemic accord and IHR amendments",
+    "year": "2025",
+    "subtype": "-",
+    "region_label": "全球",
+    "study_type": "社論",
+    "exposure": "-",
+    "findings": "國際法規框架",
+    "findings_en": "International regulatory framework",
+    "model_param": "政策對接",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12228423/",
+    "tags": [
+      "t_pandemic",
+      "t_intlreg",
+      "m_review"
+    ],
+    "iso": [],
+    "scope": "global"
+  },
+  {
+    "id": "P051",
+    "aspect": "J 台灣在地",
+    "title": "台灣禽場多重 HPAI 持續流行之生態因子",
+    "title_en": "Ecological drivers of persistent multi-HPAI circulation in Taiwan poultry farms",
+    "year": "2020",
+    "subtype": "H5N2/H5N8",
+    "region_label": "台灣",
+    "study_type": "生態分析",
+    "exposure": "家禽場",
+    "findings": "生態因子驅動持續流行",
+    "findings_en": "Ecological factors driving persistent circulation",
+    "model_param": "本土協變量、設施密度",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0236581",
+    "tags": [
+      "h5n2",
+      "h5n8",
+      "hpai",
+      "host_poultry",
+      "m_spatiotemp",
+      "t_seasonality"
+    ],
+    "iso": [
+      "TWN"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P052",
+    "aspect": "J 台灣在地",
+    "title": "台灣活禽市場風險認知與個人防護 2007-2012",
+    "title_en": "Risk perception and personal protection in Taiwan live poultry markets, 2007–2012",
+    "year": "2015",
+    "subtype": "H5N2",
+    "region_label": "台灣",
+    "study_type": "問卷調查",
+    "exposure": "活禽市場",
+    "findings": "疫情後認知升但工人防護反少、疫苗接受低",
+    "findings_en": "Post-outbreak awareness rose but worker protection fell; low vaccine uptake",
+    "model_param": "防護行為異質性",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4478710/",
+    "tags": [
+      "h5n2",
+      "exp_lpm",
+      "exp_occup",
+      "t_occprotect"
+    ],
+    "iso": [
+      "TWN"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P053",
+    "aspect": "J 台灣在地",
+    "title": "台灣雞群 H5N2 出現與演化",
+    "title_en": "Emergence and evolution of H5N2 in Taiwan chickens",
+    "year": "2014",
+    "subtype": "H5N2",
+    "region_label": "台灣",
+    "study_type": "病毒學",
+    "exposure": "家禽",
+    "findings": "本土H5N2演化",
+    "findings_en": "Evolution of domestic H5N2",
+    "model_param": "病毒背景",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4019133/",
+    "tags": [
+      "h5n2",
+      "host_poultry"
+    ],
+    "iso": [
+      "TWN"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P054",
+    "aspect": "J 台灣在地",
+    "title": "H5N8 亞型全球回顧",
+    "title_en": "Global review of the H5N8 subtype",
+    "year": "2023",
+    "subtype": "H5N8",
+    "region_label": "全球",
+    "study_type": "綜述",
+    "exposure": "家禽/野鳥",
+    "findings": "H5N8全球流行(台灣有分布)",
+    "findings_en": "Global H5N8 circulation (including Taiwan)",
+    "model_param": "亞型背景",
+    "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2023.1200681/full",
+    "tags": [
+      "h5n8",
+      "host_poultry",
+      "host_wildbird",
+      "m_review"
+    ],
+    "iso": [],
+    "scope": "global"
+  }
+]

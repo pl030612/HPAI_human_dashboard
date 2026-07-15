@@ -1,0 +1,110 @@
+{
+  "by_country": [
+    {
+      "iso": "USA",
+      "iso_num": "840",
+      "en": "United States",
+      "zh": "美國",
+      "centroid": [
+        39.5,
+        -98.35
+      ],
+      "paper_count": 14
+    },
+    {
+      "iso": "CHN",
+      "iso_num": "156",
+      "en": "China",
+      "zh": "中國",
+      "centroid": [
+        35.86,
+        104.2
+      ],
+      "paper_count": 5
+    },
+    {
+      "iso": "CAN",
+      "iso_num": "124",
+      "en": "Canada",
+      "zh": "加拿大",
+      "centroid": [
+        56.13,
+        -106.35
+      ],
+      "paper_count": 3
+    },
+    {
+      "iso": "TWN",
+      "iso_num": "158",
+      "en": "Taiwan",
+      "zh": "台灣",
+      "centroid": [
+        23.7,
+        120.96
+      ],
+      "paper_count": 3
+    },
+    {
+      "iso": "NLD",
+      "iso_num": "528",
+      "en": "Netherlands",
+      "zh": "荷蘭",
+      "centroid": [
+        52.13,
+        5.29
+      ],
+      "paper_count": 2
+    },
+    {
+      "iso": "BGD",
+      "iso_num": "050",
+      "en": "Bangladesh",
+      "zh": "孟加拉",
+      "centroid": [
+        23.68,
+        90.36
+      ],
+      "paper_count": 1
+    },
+    {
+      "iso": "VNM",
+      "iso_num": "704",
+      "en": "Vietnam",
+      "zh": "越南",
+      "centroid": [
+        14.06,
+        108.28
+      ],
+      "paper_count": 1
+    },
+    {
+      "iso": "FRA",
+      "iso_num": "250",
+      "en": "France",
+      "zh": "法國",
+      "centroid": [
+        46.23,
+        2.21
+      ],
+      "paper_count": 1
+    },
+    {
+      "iso": "CUB",
+      "iso_num": "192",
+      "en": "Cuba",
+      "zh": "古巴",
+      "centroid": [
+        21.52,
+        -77.78
+      ],
+      "paper_count": 1
+    }
+  ],
+  "scope_tally": {
+    "country": 30,
+    "region": 4,
+    "global": 17,
+    "none": 3
+  },
+  "note": "paper_count = 文獻密度（scope=country 才落點）；region/global/none 見 scope_tally 另計。人類病例 by-country choropleth 需 WHO 分國資料，尚待結構化。"
+}

@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "purpose": "把文獻總表『國別/地區』欄的文字值對應到 ISO 碼、地理範圍與地圖質心；build 腳本用此產出 geo.json。scope=country 才會標到世界地圖單點；region/global 另計不落點。",
+    "updated": "2026-07-13",
+    "scope_values": ["country", "region", "global", "none"]
+  },
+  "map": {
+    "全球":   { "scope": "global",  "iso": [],            "iso_num": [],           "zh": "全球",       "en": "Global",              "centroid": null },
+    "美國":   { "scope": "country", "iso": ["USA"],       "iso_num": ["840"],      "zh": "美國",       "en": "United States",       "centroid": [39.5, -98.35] },
+    "加拿大": { "scope": "country", "iso": ["CAN"],       "iso_num": ["124"],      "zh": "加拿大",     "en": "Canada",              "centroid": [56.13, -106.35] },
+    "北美":   { "scope": "region",  "iso": ["USA","CAN","MEX"], "iso_num": ["840","124","484"], "zh": "北美", "en": "North America", "centroid": [48.0, -100.0] },
+    "孟加拉": { "scope": "country", "iso": ["BGD"],       "iso_num": ["050"],      "zh": "孟加拉",     "en": "Bangladesh",          "centroid": [23.68, 90.36] },
+    "越南":   { "scope": "country", "iso": ["VNM"],       "iso_num": ["704"],      "zh": "越南",       "en": "Vietnam",             "centroid": [14.06, 108.28] },
+    "歐洲":   { "scope": "region",  "iso": [],            "iso_num": [],           "zh": "歐洲",       "en": "Europe",              "centroid": [54.0, 15.0] },
+    "歐盟":   { "scope": "region",  "iso": [],            "iso_num": [],           "zh": "歐盟",       "en": "European Union",      "centroid": [50.0, 10.0] },
+    "中國":   { "scope": "country", "iso": ["CHN"],       "iso_num": ["156"],      "zh": "中國",       "en": "China",               "centroid": [35.86, 104.2] },
+    "荷蘭":   { "scope": "country", "iso": ["NLD"],       "iso_num": ["528"],      "zh": "荷蘭",       "en": "Netherlands",         "centroid": [52.13, 5.29] },
+    "荷/美":  { "scope": "country", "iso": ["NLD","USA"], "iso_num": ["528","840"],"zh": "荷蘭／美國", "en": "Netherlands / USA",   "centroid": null },
+    "法國":   { "scope": "country", "iso": ["FRA"],       "iso_num": ["250"],      "zh": "法國",       "en": "France",              "centroid": [46.23, 2.21] },
+    "古巴":   { "scope": "country", "iso": ["CUB"],       "iso_num": ["192"],      "zh": "古巴",       "en": "Cuba",                "centroid": [21.52, -77.78] },
+    "台灣":   { "scope": "country", "iso": ["TWN"],       "iso_num": ["158"],      "zh": "台灣",       "en": "Taiwan",              "centroid": [23.7, 120.96] },
+    "-":      { "scope": "none",    "iso": [],            "iso_num": [],           "zh": "未指定",     "en": "Unspecified",         "centroid": null }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "hpai-dashboard",
+  "version": "1.0.0",
+  "description": "禽流感人類疫情監測儀表板與文獻整合平台 — build pipeline (Node + SheetJS)",
+  "scripts": {
+    "build": "node build/build-all.mjs",
+    "validate": "node build/validate-tags.mjs",
+    "serve": "node build/serve.mjs"
+  },
+  "keywords": ["H5N1", "avian-influenza", "surveillance", "dashboard"],
+  "author": "NTUH x NTU H5N1 human-exposure risk project",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

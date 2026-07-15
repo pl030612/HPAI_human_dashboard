@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-Hant" data-bs-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>文獻情報 · 禽流感人類疫情平台</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg border-bottom sticky-top bg-body">
+    <div class="container-fluid px-4">
+      <span class="navbar-brand mb-0">
+        <strong>禽流感人類疫情平台</strong>
+        <span class="text-secondary d-none d-md-inline"> · HPAI Human Surveillance</span>
+      </span>
+      <ul class="nav nav-pills ms-3 me-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html" data-i18n="nav_dashboard">監測儀表板</a></li>
+        <li class="nav-item"><a class="nav-link active" href="literature.html" data-i18n="nav_literature">文獻情報</a></li>
+      </ul>
+      <span class="small text-secondary me-3" id="lit-count"></span>
+      <button class="btn btn-sm btn-outline-secondary" id="lang-toggle">EN</button>
+    </div>
+  </nav>
+
+  <main class="container-fluid px-4 py-4">
+    <div class="row g-3 mb-3">
+      <div class="col-md-5">
+        <div class="input-group">
+          <select class="form-select flex-grow-0" style="width:auto" id="scope">
+            <option value="all" data-i18n="scope_all">全部欄位</option>
+            <option value="title" data-i18n="scope_title">標題</option>
+            <option value="subtype" data-i18n="scope_subtype">亞型</option>
+            <option value="region_label" data-i18n="scope_region">國別</option>
+            <option value="study_type" data-i18n="scope_study">研究類型</option>
+            <option value="exposure" data-i18n="scope_exposure">暴露源</option>
+            <option value="findings" data-i18n="scope_findings">關鍵發現</option>
+          </select>
+          <input type="search" class="form-control" id="q" data-i18n-ph="q_placeholder" placeholder="搜尋文獻…" />
+        </div>
+      </div>
+      <div class="col-md-4"><select class="form-select" id="aspect-filter"></select></div>
+      <div class="col-md-3"><select class="form-select" id="country-filter"></select></div>
+    </div>
+
+    <div id="active-chips" class="mb-3 d-flex flex-wrap gap-2 align-items-center"></div>
+
+    <div class="row g-3">
+      <div class="col-lg-7">
+        <div class="card mb-3">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-baseline mb-2">
+              <h3 class="h6 mb-0" data-i18n="net_title">關鍵字共現網絡</h3>
+              <span class="small text-secondary" data-i18n="net_hint">點節點＝串聯篩選 · 大小＝文獻數</span>
+            </div>
+            <div id="network"></div>
+            <div id="net-legend" class="d-flex flex-wrap gap-2 mt-2 small"></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-baseline mb-2">
+              <h3 class="h6 mb-0" data-i18n="map2_title">研究地點分布</h3>
+              <span class="small text-secondary" data-i18n="map2_hint">點國家＝篩選該國文獻</span>
+            </div>
+            <div id="map"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5"><div id="results"></div></div>
+    </div>
+
+    <footer class="text-secondary small border-top pt-3 mt-4">
+      <span id="lit-count-footer"></span>　·　<span data-i18n="footer_lit">關鍵字經領域詞庫歸一（同義詞合併、中英雙語）· 資料源 build-all.mjs</span>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+  <script type="module" src="js/literature.js"></script>
+</body>
+</html>

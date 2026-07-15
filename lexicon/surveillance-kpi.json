@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "purpose": "監測儀表板頭條數字（策展種子）。每個數字帶 sourceId 對應 sources.json，供前端就地溯源。季度時間序列另由 build 從 xlsx『季度監測』分頁讀入合併。數字皆來自已查證之官方來源，非推估。含中英欄位供 i18n。",
+    "updated": "2026-07-13",
+    "asOf": "2026-06-30"
+  },
+  "global": {
+    "cumulative_human_cases": 1000,
+    "deaths": 479,
+    "since_year": 2003,
+    "cfr": 0.48,
+    "note_zh": "WHO 2003–2026 累計表（2026-05-08 資料）；1997 香港疫情早於此表未計入。",
+    "note_en": "WHO 2003–2026 cumulative table (data as of 8 May 2026); 1997 Hong Kong outbreak predates this table and is excluded.",
+    "sourceId": "who_cumulative"
+  },
+  "taiwan": {
+    "h5n1_local": 0,
+    "all_subtype_local": 1,
+    "cumulative_incl_imported": 5,
+    "since_year": 2014,
+    "note_zh": "全亞型本土 1 例為 2026-04 首例本土 H7（禽場從業者、職業暴露、存活）；累計 5 含境外移入 4。H5N1 本土維持 0（pre-emergence 基線）。",
+    "note_en": "The single locally-acquired all-subtype case is Taiwan's first domestic H7 (poultry worker, occupational exposure, survived), April 2026; the cumulative 5 includes 4 imported. Local H5N1 remains 0 (pre-emergence baseline).",
+    "sourceId": "tw_cdc_news"
+  },
+  "taiwan_poultry": {
+    "cumulative_outbreaks": 135,
+    "since": "2022-11",
+    "season_window_zh": "12–3 月",
+    "season_window_en": "Dec–Mar",
+    "sourceId": "moa_aphia"
+  },
+  "clade_axes": [
+    { "id": "clade_2321", "zh": "亞洲地方株 2.3.2.1", "en": "Asian endemic 2.3.2.1", "region_zh": "南亞/東南亞", "region_en": "South/Southeast Asia", "severity_zh": "偏重（含死亡）", "severity_en": "More severe (incl. deaths)" },
+    { "id": "clade_2344b", "zh": "泛動物流行株 2.3.4.4b", "en": "Panzootic 2.3.4.4b", "region_zh": "美洲（乳牛 B3.13/禽 D1.1）", "region_en": "Americas (cattle B3.13 / poultry D1.1)", "severity_zh": "多輕症（乳牛軸）", "severity_en": "Mostly mild (dairy axis)" }
+  ],
+  "mutation_watch": [
+    { "canonical": "pb2_e627k", "zh": "PB2 E627K", "status": "detected", "status_zh": "已檢出", "status_en": "Detected" },
+    { "canonical": "pb2_d701n", "zh": "PB2 D701N", "status": "monitoring", "status_zh": "監測中", "status_en": "Monitoring" },
+    { "canonical": "pb2_m631l", "zh": "PB2 M631L", "status": "detected", "status_zh": "已檢出（牛序列）", "status_en": "Detected (cattle seqs)" },
+    { "canonical": "pb2_d740n", "zh": "PB2 D740N", "status": "new", "status_zh": "本季新增（趨同）", "status_en": "New this quarter (convergent)" },
+    { "canonical": "pa_k497r", "zh": "PA K497R", "status": "detected", "status_zh": "已檢出（多數牛序列）", "status_en": "Detected (most cattle seqs)" },
+    { "canonical": "ha_a26", "zh": "HA α2,6 受體轉換", "status": "not_crossed", "status_zh": "未跨越（大流行門檻）", "status_en": "Not crossed (pandemic threshold)" }
+  ]
+}

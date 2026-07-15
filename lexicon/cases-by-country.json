@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "purpose": "WHO 分國 H5N1 人類累計確診與死亡（2003–2026）。餵儀表板『人類病例世界地圖 choropleth』。數字逐字取自 WHO/GIP 官方累計表，非推估。",
+    "source_org": "WHO/GIP",
+    "source_url": "https://cdn.who.int/media/docs/default-source/influenza/h5n1-human-case-cumulative-table/2026_table_h5n1_may.pdf",
+    "as_of": "2026-05-08",
+    "period": "2003–2026",
+    "note": "含通報之無症狀個案；依通報國歸屬（未必為暴露發生國）。1997 香港疫情（18 例）早於 WHO 2003 起算表，未計入。",
+    "total_cases": 1000,
+    "total_deaths": 479
+  },
+  "rows": [
+    { "iso": "EGY", "iso_num": "818", "en": "Egypt",        "zh": "埃及",     "cases": 359, "deaths": 120 },
+    { "iso": "IDN", "iso_num": "360", "en": "Indonesia",    "zh": "印尼",     "cases": 200, "deaths": 168 },
+    { "iso": "VNM", "iso_num": "704", "en": "Viet Nam",     "zh": "越南",     "cases": 130, "deaths": 65 },
+    { "iso": "KHM", "iso_num": "116", "en": "Cambodia",     "zh": "柬埔寨",   "cases": 94,  "deaths": 53 },
+    { "iso": "USA", "iso_num": "840", "en": "United States","zh": "美國",     "cases": 71,  "deaths": 1 },
+    { "iso": "CHN", "iso_num": "156", "en": "China",        "zh": "中國",     "cases": 57,  "deaths": 32 },
+    { "iso": "THA", "iso_num": "764", "en": "Thailand",     "zh": "泰國",     "cases": 25,  "deaths": 17 },
+    { "iso": "BGD", "iso_num": "050", "en": "Bangladesh",   "zh": "孟加拉",   "cases": 13,  "deaths": 2 },
+    { "iso": "TUR", "iso_num": "792", "en": "Turkey",       "zh": "土耳其",   "cases": 12,  "deaths": 4 },
+    { "iso": "AZE", "iso_num": "031", "en": "Azerbaijan",   "zh": "亞塞拜然", "cases": 8,   "deaths": 5 },
+    { "iso": "GBR", "iso_num": "826", "en": "United Kingdom","zh": "英國",    "cases": 6,   "deaths": 0 },
+    { "iso": "IND", "iso_num": "356", "en": "India",        "zh": "印度",     "cases": 4,   "deaths": 3 },
+    { "iso": "IRQ", "iso_num": "368", "en": "Iraq",         "zh": "伊拉克",   "cases": 3,   "deaths": 2 },
+    { "iso": "LAO", "iso_num": "418", "en": "Lao PDR",      "zh": "寮國",     "cases": 3,   "deaths": 2 },
+    { "iso": "PAK", "iso_num": "586", "en": "Pakistan",     "zh": "巴基斯坦", "cases": 3,   "deaths": 1 },
+    { "iso": "CAN", "iso_num": "124", "en": "Canada",       "zh": "加拿大",   "cases": 2,   "deaths": 1 },
+    { "iso": "ESP", "iso_num": "724", "en": "Spain",        "zh": "西班牙",   "cases": 2,   "deaths": 0 },
+    { "iso": "AUS", "iso_num": "036", "en": "Australia",    "zh": "澳洲",     "cases": 1,   "deaths": 0 },
+    { "iso": "CHL", "iso_num": "152", "en": "Chile",        "zh": "智利",     "cases": 1,   "deaths": 0 },
+    { "iso": "DJI", "iso_num": "262", "en": "Djibouti",     "zh": "吉布地",   "cases": 1,   "deaths": 0 },
+    { "iso": "ECU", "iso_num": "218", "en": "Ecuador",      "zh": "厄瓜多",   "cases": 1,   "deaths": 0 },
+    { "iso": "MEX", "iso_num": "484", "en": "Mexico",       "zh": "墨西哥",   "cases": 1,   "deaths": 1 },
+    { "iso": "MMR", "iso_num": "104", "en": "Myanmar",      "zh": "緬甸",     "cases": 1,   "deaths": 0 },
+    { "iso": "NPL", "iso_num": "524", "en": "Nepal",        "zh": "尼泊爾",   "cases": 1,   "deaths": 1 },
+    { "iso": "NGA", "iso_num": "566", "en": "Nigeria",      "zh": "奈及利亞", "cases": 1,   "deaths": 1 }
+  ]
+}

@@ -1,0 +1,1857 @@
+{
+  "nodes": [
+    {
+      "id": "h5n1",
+      "zh": "H5N1",
+      "en": "H5N1",
+      "category": "subtype",
+      "count": 28
+    },
+    {
+      "id": "m_surveillance",
+      "zh": "官方監測",
+      "en": "Official surveillance",
+      "category": "method",
+      "count": 4
+    },
+    {
+      "id": "host_poultry",
+      "zh": "家禽",
+      "en": "Poultry",
+      "category": "host",
+      "count": 17
+    },
+    {
+      "id": "t_cfr",
+      "zh": "致死率 CFR",
+      "en": "Case fatality (CFR)",
+      "category": "theme",
+      "count": 5
+    },
+    {
+      "id": "host_wildbird",
+      "zh": "野鳥",
+      "en": "Wild birds",
+      "category": "host",
+      "count": 11
+    },
+    {
+      "id": "t_seasonality",
+      "zh": "季節性",
+      "en": "Seasonality",
+      "category": "theme",
+      "count": 4
+    },
+    {
+      "id": "m_sysreview",
+      "zh": "系統回顧",
+      "en": "Systematic review",
+      "category": "method",
+      "count": 2
+    },
+    {
+      "id": "host_dairycattle",
+      "zh": "乳牛",
+      "en": "Dairy cattle",
+      "category": "host",
+      "count": 6
+    },
+    {
+      "id": "host_commercial",
+      "zh": "商業家禽",
+      "en": "Commercial poultry",
+      "category": "host",
+      "count": 1
+    },
+    {
+      "id": "host_backyard",
+      "zh": "後院家禽",
+      "en": "Backyard poultry",
+      "category": "host",
+      "count": 3
+    },
+    {
+      "id": "m_casereport",
+      "zh": "個案報告",
+      "en": "Case report/series",
+      "category": "method",
+      "count": 5
+    },
+    {
+      "id": "t_h2h",
+      "zh": "人傳人",
+      "en": "Human-to-human",
+      "category": "theme",
+      "count": 2
+    },
+    {
+      "id": "exp_occup",
+      "zh": "職業暴露",
+      "en": "Occupational exposure",
+      "category": "exposure",
+      "count": 12
+    },
+    {
+      "id": "m_review",
+      "zh": "綜述",
+      "en": "Narrative review",
+      "category": "method",
+      "count": 16
+    },
+    {
+      "id": "clade_2344b",
+      "zh": "clade 2.3.4.4b",
+      "en": "Clade 2.3.4.4b",
+      "category": "clade",
+      "count": 4
+    },
+    {
+      "id": "t_mammadapt",
+      "zh": "哺乳類適應",
+      "en": "Mammalian adaptation",
+      "category": "theme",
+      "count": 3
+    },
+    {
+      "id": "pb2_e627k",
+      "zh": "PB2 E627K",
+      "en": "PB2 E627K",
+      "category": "mutation",
+      "count": 1
+    },
+    {
+      "id": "ha_a26",
+      "zh": "HA α2,6 受體轉換",
+      "en": "HA α2,6 receptor switch",
+      "category": "mutation",
+      "count": 1
+    },
+    {
+      "id": "t_pandemic",
+      "zh": "大流行風險",
+      "en": "Pandemic risk",
+      "category": "theme",
+      "count": 8
+    },
+    {
+      "id": "t_crossspecies",
+      "zh": "跨物種傳播",
+      "en": "Cross-species transmission",
+      "category": "theme",
+      "count": 7
+    },
+    {
+      "id": "host_cat",
+      "zh": "貓",
+      "en": "Cats",
+      "category": "host",
+      "count": 2
+    },
+    {
+      "id": "host_mink",
+      "zh": "水貂",
+      "en": "Mink",
+      "category": "host",
+      "count": 1
+    },
+    {
+      "id": "host_marine",
+      "zh": "海洋哺乳類",
+      "en": "Marine mammals",
+      "category": "host",
+      "count": 1
+    },
+    {
+      "id": "t_gaps",
+      "zh": "監測缺口",
+      "en": "Surveillance gaps",
+      "category": "theme",
+      "count": 4
+    },
+    {
+      "id": "geno_b313",
+      "zh": "基因型 B3.13",
+      "en": "Genotype B3.13",
+      "category": "clade",
+      "count": 2
+    },
+    {
+      "id": "exp_milking",
+      "zh": "擠乳",
+      "en": "Milking",
+      "category": "exposure",
+      "count": 1
+    },
+    {
+      "id": "exp_rawmilk",
+      "zh": "生乳",
+      "en": "Raw milk",
+      "category": "exposure",
+      "count": 3
+    },
+    {
+      "id": "exp_fomite",
+      "zh": "環境污染物",
+      "en": "Fomites / environment",
+      "category": "exposure",
+      "count": 4
+    },
+    {
+      "id": "geno_d11",
+      "zh": "基因型 D1.1",
+      "en": "Genotype D1.1",
+      "category": "clade",
+      "count": 7
+    },
+    {
+      "id": "m_envsampling",
+      "zh": "環境採樣",
+      "en": "Environmental sampling",
+      "category": "method",
+      "count": 4
+    },
+    {
+      "id": "exp_food",
+      "zh": "食物途徑",
+      "en": "Foodborne",
+      "category": "exposure",
+      "count": 1
+    },
+    {
+      "id": "host_ferret",
+      "zh": "雪貂",
+      "en": "Ferret",
+      "category": "host",
+      "count": 1
+    },
+    {
+      "id": "m_experiment",
+      "zh": "實驗",
+      "en": "Experimental",
+      "category": "method",
+      "count": 2
+    },
+    {
+      "id": "m_spatiotemp",
+      "zh": "時空分析",
+      "en": "Spatiotemporal analysis",
+      "category": "method",
+      "count": 3
+    },
+    {
+      "id": "h5_generic",
+      "zh": "H5 亞型",
+      "en": "H5 subtype",
+      "category": "subtype",
+      "count": 3
+    },
+    {
+      "id": "m_serosurvey",
+      "zh": "血清調查",
+      "en": "Serosurvey",
+      "category": "method",
+      "count": 5
+    },
+    {
+      "id": "exp_lpm",
+      "zh": "活禽市場",
+      "en": "Live poultry market",
+      "category": "exposure",
+      "count": 6
+    },
+    {
+      "id": "exp_aerosol",
+      "zh": "氣膠／風媒",
+      "en": "Aerosol / airborne",
+      "category": "exposure",
+      "count": 9
+    },
+    {
+      "id": "t_occprotect",
+      "zh": "職業族群保護",
+      "en": "Occupational protection",
+      "category": "theme",
+      "count": 4
+    },
+    {
+      "id": "h7n9",
+      "zh": "H7N9",
+      "en": "H7N9",
+      "category": "subtype",
+      "count": 2
+    },
+    {
+      "id": "h5n6",
+      "zh": "H5N6",
+      "en": "H5N6",
+      "category": "subtype",
+      "count": 2
+    },
+    {
+      "id": "h9n2",
+      "zh": "H9N2",
+      "en": "H9N2",
+      "category": "subtype",
+      "count": 2
+    },
+    {
+      "id": "h10n3",
+      "zh": "H10N3",
+      "en": "H10N3",
+      "category": "subtype",
+      "count": 1
+    },
+    {
+      "id": "lpai",
+      "zh": "低病原 LPAI",
+      "en": "LPAI",
+      "category": "subtype",
+      "count": 1
+    },
+    {
+      "id": "hpai",
+      "zh": "高病原 HPAI",
+      "en": "HPAI",
+      "category": "subtype",
+      "count": 4
+    },
+    {
+      "id": "m_qra",
+      "zh": "量化風險評估",
+      "en": "Quantitative risk assessment",
+      "category": "method",
+      "count": 1
+    },
+    {
+      "id": "m_spatialmodel",
+      "zh": "空間建模",
+      "en": "Spatial modeling",
+      "category": "method",
+      "count": 6
+    },
+    {
+      "id": "h5n8",
+      "zh": "H5N8",
+      "en": "H5N8",
+      "category": "subtype",
+      "count": 3
+    },
+    {
+      "id": "m_kernel",
+      "zh": "傳播核",
+      "en": "Transmission kernel",
+      "category": "method",
+      "count": 3
+    },
+    {
+      "id": "t_onehealth",
+      "zh": "One Health",
+      "en": "One Health",
+      "category": "theme",
+      "count": 4
+    },
+    {
+      "id": "h5n2",
+      "zh": "H5N2",
+      "en": "H5N2",
+      "category": "subtype",
+      "count": 4
+    },
+    {
+      "id": "host_mammal",
+      "zh": "哺乳類",
+      "en": "Mammals",
+      "category": "host",
+      "count": 1
+    },
+    {
+      "id": "t_intlreg",
+      "zh": "國際法規整備",
+      "en": "International regulation",
+      "category": "theme",
+      "count": 2
+    }
+  ],
+  "edges": [
+    {
+      "source": "h5n1",
+      "target": "m_surveillance",
+      "weight": 2
+    },
+    {
+      "source": "h5n1",
+      "target": "host_poultry",
+      "weight": 7
+    },
+    {
+      "source": "h5n1",
+      "target": "t_cfr",
+      "weight": 5
+    },
+    {
+      "source": "host_poultry",
+      "target": "m_surveillance",
+      "weight": 2
+    },
+    {
+      "source": "m_surveillance",
+      "target": "t_cfr",
+      "weight": 1
+    },
+    {
+      "source": "host_poultry",
+      "target": "t_cfr",
+      "weight": 2
+    },
+    {
+      "source": "h5n1",
+      "target": "host_wildbird",
+      "weight": 6
+    },
+    {
+      "source": "h5n1",
+      "target": "t_seasonality",
+      "weight": 3
+    },
+    {
+      "source": "host_wildbird",
+      "target": "m_surveillance",
+      "weight": 1
+    },
+    {
+      "source": "m_surveillance",
+      "target": "t_seasonality",
+      "weight": 1
+    },
+    {
+      "source": "host_poultry",
+      "target": "host_wildbird",
+      "weight": 7
+    },
+    {
+      "source": "host_poultry",
+      "target": "t_seasonality",
+      "weight": 3
+    },
+    {
+      "source": "host_wildbird",
+      "target": "t_seasonality",
+      "weight": 2
+    },
+    {
+      "source": "h5n1",
+      "target": "m_sysreview",
+      "weight": 1
+    },
+    {
+      "source": "host_poultry",
+      "target": "m_sysreview",
+      "weight": 2
+    },
+    {
+      "source": "m_sysreview",
+      "target": "t_seasonality",
+      "weight": 1
+    },
+    {
+      "source": "m_sysreview",
+      "target": "t_cfr",
+      "weight": 1
+    },
+    {
+      "source": "t_cfr",
+      "target": "t_seasonality",
+      "weight": 1
+    },
+    {
+      "source": "h5n1",
+      "target": "host_dairycattle",
+      "weight": 5
+    },
+    {
+      "source": "h5n1",
+      "target": "host_commercial",
+      "weight": 1
+    },
+    {
+      "source": "h5n1",
+      "target": "host_backyard",
+      "weight": 3
+    },
+    {
+      "source": "h5n1",
+      "target": "m_casereport",
+      "weight": 5
+    },
+    {
+      "source": "h5n1",
+      "target": "t_h2h",
+      "weight": 2
+    },
+    {
+      "source": "exp_occup",
+      "target": "h5n1",
+      "weight": 4
+    },
+    {
+      "source": "host_commercial",
+      "target": "host_dairycattle",
+      "weight": 1
+    },
+    {
+      "source": "host_backyard",
+      "target": "host_dairycattle",
+      "weight": 1
+    },
+    {
+      "source": "host_dairycattle",
+      "target": "m_casereport",
+      "weight": 3
+    },
+    {
+      "source": "host_dairycattle",
+      "target": "t_h2h",
+      "weight": 1
+    },
+    {
+      "source": "exp_occup",
+      "target": "host_dairycattle",
+      "weight": 3
+    },
+    {
+      "source": "host_backyard",
+      "target": "host_commercial",
+      "weight": 1
+    },
+    {
+      "source": "host_commercial",
+      "target": "m_casereport",
+      "weight": 1
+    },
+    {
+      "source": "host_commercial",
+      "target": "t_h2h",
+      "weight": 1
+    },
+    {
+      "source": "exp_occup",
+      "target": "host_commercial",
+      "weight": 1
+    },
+    {
+      "source": "host_backyard",
+      "target": "m_casereport",
+      "weight": 2
+    },
+    {
+      "source": "host_backyard",
+      "target": "t_h2h",
+      "weight": 1
+    },
+    {
+      "source": "exp_occup",
+      "target": "host_backyard",
+      "weight": 1
+    },
+    {
+      "source": "m_casereport",
+      "target": "t_h2h",
+      "weight": 1
+    },
+    {
+      "source": "exp_occup",
+      "target": "m_casereport",
+      "weight": 2
+    },
+    {
+      "source": "exp_occup",
+      "target": "t_h2h",
+      "weight": 1
+    },
+    {
+      "source": "h5n1",
+      "target": "m_review",
+      "weight": 11
+    },
+    {
+      "source": "clade_2344b",
+      "target": "h5n1",
+      "weight": 4
+    },
+    {
+      "source": "h5n1",
+      "target": "t_mammadapt",
+      "weight": 3
+    },
+    {
+      "source": "h5n1",
+      "target": "pb2_e627k",
+      "weight": 1
+    },
+    {
+      "source": "h5n1",
+      "target": "ha_a26",
+      "weight": 1
+    },
+    {
+      "source": "h5n1",
+      "target": "t_pandemic",
+      "weight": 5
+    },
+    {
+      "source": "h5n1",
+      "target": "t_crossspecies",
+      "weight": 5
+    },
+    {
+      "source": "h5n1",
+      "target": "host_cat",
+      "weight": 2
+    },
+    {
+      "source": "h5n1",
+      "target": "host_mink",
+      "weight": 1
+    },
+    {
+      "source": "h5n1",
+      "target": "host_marine",
+      "weight": 1
+    },
+    {
+      "source": "clade_2344b",
+      "target": "t_mammadapt",
+      "weight": 1
+    },
+    {
+      "source": "clade_2344b",
+      "target": "pb2_e627k",
+      "weight": 1
+    },
+    {
+      "source": "clade_2344b",
+      "target": "ha_a26",
+      "weight": 1
+    },
+    {
+      "source": "clade_2344b",
+      "target": "t_pandemic",
+      "weight": 2
+    },
+    {
+      "source": "clade_2344b",
+      "target": "t_crossspecies",
+      "weight": 4
+    },
+    {
+      "source": "clade_2344b",
+      "target": "m_review",
+      "weight": 3
+    },
+    {
+      "source": "clade_2344b",
+      "target": "host_cat",
+      "weight": 2
+    },
+    {
+      "source": "clade_2344b",
+      "target": "host_mink",
+      "weight": 1
+    },
+    {
+      "source": "clade_2344b",
+      "target": "host_marine",
+      "weight": 1
+    },
+    {
+      "source": "pb2_e627k",
+      "target": "t_mammadapt",
+      "weight": 1
+    },
+    {
+      "source": "ha_a26",
+      "target": "t_mammadapt",
+      "weight": 1
+    },
+    {
+      "source": "t_mammadapt",
+      "target": "t_pandemic",
+      "weight": 1
+    },
+    {
+      "source": "t_crossspecies",
+      "target": "t_mammadapt",
+      "weight": 1
+    },
+    {
+      "source": "m_review",
+      "target": "t_mammadapt",
+      "weight": 2
+    },
+    {
+      "source": "host_cat",
+      "target": "t_mammadapt",
+      "weight": 1
+    },
+    {
+      "source": "host_mink",
+      "target": "t_mammadapt",
+      "weight": 1
+    },
+    {
+      "source": "host_marine",
+      "target": "t_mammadapt",
+      "weight": 1
+    },
+    {
+      "source": "ha_a26",
+      "target": "pb2_e627k",
+      "weight": 1
+    },
+    {
+      "source": "pb2_e627k",
+      "target": "t_pandemic",
+      "weight": 1
+    },
+    {
+      "source": "pb2_e627k",
+      "target": "t_crossspecies",
+      "weight": 1
+    },
+    {
+      "source": "m_review",
+      "target": "pb2_e627k",
+      "weight": 1
+    },
+    {
+      "source": "host_cat",
+      "target": "pb2_e627k",
+      "weight": 1
+    },
+    {
+      "source": "host_mink",
+      "target": "pb2_e627k",
+      "weight": 1
+    },
+    {
+      "source": "host_marine",
+      "target": "pb2_e627k",
+      "weight": 1
+    },
+    {
+      "source": "ha_a26",
+      "target": "t_pandemic",
+      "weight": 1
+    },
+    {
+      "source": "ha_a26",
+      "target": "t_crossspecies",
+      "weight": 1
+    },
+    {
+      "source": "ha_a26",
+      "target": "m_review",
+      "weight": 1
+    },
+    {
+      "source": "ha_a26",
+      "target": "host_cat",
+      "weight": 1
+    },
+    {
+      "source": "ha_a26",
+      "target": "host_mink",
+      "weight": 1
+    },
+    {
+      "source": "ha_a26",
+      "target": "host_marine",
+      "weight": 1
+    },
+    {
+      "source": "t_crossspecies",
+      "target": "t_pandemic",
+      "weight": 2
+    },
+    {
+      "source": "m_review",
+      "target": "t_pandemic",
+      "weight": 7
+    },
+    {
+      "source": "host_cat",
+      "target": "t_pandemic",
+      "weight": 1
+    },
+    {
+      "source": "host_mink",
+      "target": "t_pandemic",
+      "weight": 1
+    },
+    {
+      "source": "host_marine",
+      "target": "t_pandemic",
+      "weight": 1
+    },
+    {
+      "source": "m_review",
+      "target": "t_crossspecies",
+      "weight": 4
+    },
+    {
+      "source": "host_cat",
+      "target": "t_crossspecies",
+      "weight": 2
+    },
+    {
+      "source": "host_mink",
+      "target": "t_crossspecies",
+      "weight": 1
+    },
+    {
+      "source": "host_marine",
+      "target": "t_crossspecies",
+      "weight": 1
+    },
+    {
+      "source": "host_cat",
+      "target": "m_review",
+      "weight": 1
+    },
+    {
+      "source": "host_mink",
+      "target": "m_review",
+      "weight": 1
+    },
+    {
+      "source": "host_marine",
+      "target": "m_review",
+      "weight": 1
+    },
+    {
+      "source": "host_cat",
+      "target": "host_mink",
+      "weight": 1
+    },
+    {
+      "source": "host_cat",
+      "target": "host_marine",
+      "weight": 1
+    },
+    {
+      "source": "host_marine",
+      "target": "host_mink",
+      "weight": 1
+    },
+    {
+      "source": "h5n1",
+      "target": "t_gaps",
+      "weight": 3
+    },
+    {
+      "source": "clade_2344b",
+      "target": "t_gaps",
+      "weight": 1
+    },
+    {
+      "source": "t_crossspecies",
+      "target": "t_gaps",
+      "weight": 1
+    },
+    {
+      "source": "m_review",
+      "target": "t_gaps",
+      "weight": 2
+    },
+    {
+      "source": "clade_2344b",
+      "target": "host_dairycattle",
+      "weight": 1
+    },
+    {
+      "source": "clade_2344b",
+      "target": "m_casereport",
+      "weight": 1
+    },
+    {
+      "source": "host_cat",
+      "target": "host_dairycattle",
+      "weight": 1
+    },
+    {
+      "source": "host_dairycattle",
+      "target": "t_crossspecies",
+      "weight": 1
+    },
+    {
+      "source": "host_cat",
+      "target": "m_casereport",
+      "weight": 1
+    },
+    {
+      "source": "m_casereport",
+      "target": "t_crossspecies",
+      "weight": 1
+    },
+    {
+      "source": "t_h2h",
+      "target": "t_mammadapt",
+      "weight": 1
+    },
+    {
+      "source": "t_gaps",
+      "target": "t_mammadapt",
+      "weight": 2
+    },
+    {
+      "source": "t_gaps",
+      "target": "t_h2h",
+      "weight": 1
+    },
+    {
+      "source": "m_review",
+      "target": "t_h2h",
+      "weight": 1
+    },
+    {
+      "source": "geno_b313",
+      "target": "h5n1",
+      "weight": 2
+    },
+    {
+      "source": "exp_milking",
+      "target": "h5n1",
+      "weight": 1
+    },
+    {
+      "source": "exp_rawmilk",
+      "target": "h5n1",
+      "weight": 3
+    },
+    {
+      "source": "geno_b313",
+      "target": "host_dairycattle",
+      "weight": 2
+    },
+    {
+      "source": "exp_milking",
+      "target": "geno_b313",
+      "weight": 1
+    },
+    {
+      "source": "exp_rawmilk",
+      "target": "geno_b313",
+      "weight": 1
+    },
+    {
+      "source": "geno_b313",
+      "target": "m_casereport",
+      "weight": 1
+    },
+    {
+      "source": "exp_occup",
+      "target": "geno_b313",
+      "weight": 1
+    },
+    {
+      "source": "exp_milking",
+      "target": "host_dairycattle",
+      "weight": 1
+    },
+    {
+      "source": "exp_rawmilk",
+      "target": "host_dairycattle",
+      "weight": 1
+    },
+    {
+      "source": "exp_milking",
+      "target": "exp_rawmilk",
+      "weight": 1
+    },
+    {
+      "source": "exp_milking",
+      "target": "m_casereport",
+      "weight": 1
+    },
+    {
+      "source": "exp_milking",
+      "target": "exp_occup",
+      "weight": 1
+    },
+    {
+      "source": "exp_rawmilk",
+      "target": "m_casereport",
+      "weight": 1
+    },
+    {
+      "source": "exp_occup",
+      "target": "exp_rawmilk",
+      "weight": 1
+    },
+    {
+      "source": "exp_fomite",
+      "target": "h5n1",
+      "weight": 2
+    },
+    {
+      "source": "host_dairycattle",
+      "target": "host_wildbird",
+      "weight": 1
+    },
+    {
+      "source": "exp_fomite",
+      "target": "host_dairycattle",
+      "weight": 1
+    },
+    {
+      "source": "host_dairycattle",
+      "target": "m_review",
+      "weight": 2
+    },
+    {
+      "source": "exp_fomite",
+      "target": "host_wildbird",
+      "weight": 2
+    },
+    {
+      "source": "host_wildbird",
+      "target": "m_review",
+      "weight": 2
+    },
+    {
+      "source": "exp_fomite",
+      "target": "m_review",
+      "weight": 3
+    },
+    {
+      "source": "geno_d11",
+      "target": "h5n1",
+      "weight": 7
+    },
+    {
+      "source": "geno_b313",
+      "target": "geno_d11",
+      "weight": 1
+    },
+    {
+      "source": "geno_b313",
+      "target": "host_poultry",
+      "weight": 1
+    },
+    {
+      "source": "geno_b313",
+      "target": "t_pandemic",
+      "weight": 1
+    },
+    {
+      "source": "geno_b313",
+      "target": "m_review",
+      "weight": 1
+    },
+    {
+      "source": "geno_d11",
+      "target": "host_dairycattle",
+      "weight": 1
+    },
+    {
+      "source": "geno_d11",
+      "target": "host_poultry",
+      "weight": 2
+    },
+    {
+      "source": "geno_d11",
+      "target": "t_pandemic",
+      "weight": 1
+    },
+    {
+      "source": "geno_d11",
+      "target": "m_review",
+      "weight": 2
+    },
+    {
+      "source": "host_dairycattle",
+      "target": "host_poultry",
+      "weight": 1
+    },
+    {
+      "source": "host_dairycattle",
+      "target": "t_pandemic",
+      "weight": 1
+    },
+    {
+      "source": "host_poultry",
+      "target": "t_pandemic",
+      "weight": 1
+    },
+    {
+      "source": "host_poultry",
+      "target": "m_review",
+      "weight": 2
+    },
+    {
+      "source": "h5n1",
+      "target": "m_envsampling",
+      "weight": 1
+    },
+    {
+      "source": "exp_rawmilk",
+      "target": "m_envsampling",
+      "weight": 1
+    },
+    {
+      "source": "exp_food",
+      "target": "h5n1",
+      "weight": 1
+    },
+    {
+      "source": "h5n1",
+      "target": "host_ferret",
+      "weight": 1
+    },
+    {
+      "source": "h5n1",
+      "target": "m_experiment",
+      "weight": 1
+    },
+    {
+      "source": "exp_food",
+      "target": "exp_rawmilk",
+      "weight": 1
+    },
+    {
+      "source": "exp_rawmilk",
+      "target": "host_ferret",
+      "weight": 1
+    },
+    {
+      "source": "exp_rawmilk",
+      "target": "m_experiment",
+      "weight": 1
+    },
+    {
+      "source": "exp_food",
+      "target": "host_ferret",
+      "weight": 1
+    },
+    {
+      "source": "exp_food",
+      "target": "m_experiment",
+      "weight": 1
+    },
+    {
+      "source": "host_ferret",
+      "target": "m_experiment",
+      "weight": 1
+    },
+    {
+      "source": "geno_d11",
+      "target": "host_backyard",
+      "weight": 2
+    },
+    {
+      "source": "geno_d11",
+      "target": "m_casereport",
+      "weight": 2
+    },
+    {
+      "source": "geno_d11",
+      "target": "t_cfr",
+      "weight": 3
+    },
+    {
+      "source": "host_backyard",
+      "target": "t_cfr",
+      "weight": 2
+    },
+    {
+      "source": "m_casereport",
+      "target": "t_cfr",
+      "weight": 1
+    },
+    {
+      "source": "host_backyard",
+      "target": "m_review",
+      "weight": 1
+    },
+    {
+      "source": "m_review",
+      "target": "t_cfr",
+      "weight": 1
+    },
+    {
+      "source": "geno_d11",
+      "target": "t_mammadapt",
+      "weight": 1
+    },
+    {
+      "source": "geno_d11",
+      "target": "t_gaps",
+      "weight": 1
+    },
+    {
+      "source": "t_cfr",
+      "target": "t_mammadapt",
+      "weight": 1
+    },
+    {
+      "source": "t_cfr",
+      "target": "t_gaps",
+      "weight": 1
+    },
+    {
+      "source": "geno_d11",
+      "target": "host_wildbird",
+      "weight": 3
+    },
+    {
+      "source": "host_wildbird",
+      "target": "m_casereport",
+      "weight": 1
+    },
+    {
+      "source": "h5n1",
+      "target": "m_spatiotemp",
+      "weight": 2
+    },
+    {
+      "source": "geno_d11",
+      "target": "m_spatiotemp",
+      "weight": 1
+    },
+    {
+      "source": "geno_d11",
+      "target": "t_seasonality",
+      "weight": 1
+    },
+    {
+      "source": "host_wildbird",
+      "target": "m_spatiotemp",
+      "weight": 1
+    },
+    {
+      "source": "m_spatiotemp",
+      "target": "t_seasonality",
+      "weight": 2
+    },
+    {
+      "source": "h5_generic",
+      "target": "host_dairycattle",
+      "weight": 1
+    },
+    {
+      "source": "exp_occup",
+      "target": "h5_generic",
+      "weight": 3
+    },
+    {
+      "source": "h5_generic",
+      "target": "m_serosurvey",
+      "weight": 3
+    },
+    {
+      "source": "h5_generic",
+      "target": "t_gaps",
+      "weight": 1
+    },
+    {
+      "source": "host_dairycattle",
+      "target": "m_serosurvey",
+      "weight": 1
+    },
+    {
+      "source": "host_dairycattle",
+      "target": "t_gaps",
+      "weight": 1
+    },
+    {
+      "source": "exp_occup",
+      "target": "m_serosurvey",
+      "weight": 5
+    },
+    {
+      "source": "exp_occup",
+      "target": "t_gaps",
+      "weight": 1
+    },
+    {
+      "source": "m_serosurvey",
+      "target": "t_gaps",
+      "weight": 1
+    },
+    {
+      "source": "exp_occup",
+      "target": "host_poultry",
+      "weight": 3
+    },
+    {
+      "source": "exp_occup",
+      "target": "host_wildbird",
+      "weight": 2
+    },
+    {
+      "source": "exp_lpm",
+      "target": "exp_occup",
+      "weight": 4
+    },
+    {
+      "source": "exp_occup",
+      "target": "m_sysreview",
+      "weight": 1
+    },
+    {
+      "source": "exp_lpm",
+      "target": "host_poultry",
+      "weight": 1
+    },
+    {
+      "source": "exp_lpm",
+      "target": "host_wildbird",
+      "weight": 1
+    },
+    {
+      "source": "host_wildbird",
+      "target": "m_sysreview",
+      "weight": 1
+    },
+    {
+      "source": "exp_lpm",
+      "target": "m_sysreview",
+      "weight": 1
+    },
+    {
+      "source": "exp_aerosol",
+      "target": "exp_occup",
+      "weight": 1
+    },
+    {
+      "source": "exp_fomite",
+      "target": "exp_occup",
+      "weight": 1
+    },
+    {
+      "source": "exp_occup",
+      "target": "m_review",
+      "weight": 2
+    },
+    {
+      "source": "exp_aerosol",
+      "target": "exp_fomite",
+      "weight": 2
+    },
+    {
+      "source": "exp_aerosol",
+      "target": "m_review",
+      "weight": 2
+    },
+    {
+      "source": "h5n1",
+      "target": "m_serosurvey",
+      "weight": 1
+    },
+    {
+      "source": "host_poultry",
+      "target": "m_serosurvey",
+      "weight": 2
+    },
+    {
+      "source": "h5_generic",
+      "target": "host_wildbird",
+      "weight": 1
+    },
+    {
+      "source": "h5_generic",
+      "target": "host_poultry",
+      "weight": 1
+    },
+    {
+      "source": "host_wildbird",
+      "target": "m_serosurvey",
+      "weight": 1
+    },
+    {
+      "source": "exp_lpm",
+      "target": "h5_generic",
+      "weight": 1
+    },
+    {
+      "source": "exp_lpm",
+      "target": "m_serosurvey",
+      "weight": 2
+    },
+    {
+      "source": "exp_occup",
+      "target": "t_occprotect",
+      "weight": 3
+    },
+    {
+      "source": "h5n6",
+      "target": "h7n9",
+      "weight": 2
+    },
+    {
+      "source": "h7n9",
+      "target": "h9n2",
+      "weight": 2
+    },
+    {
+      "source": "exp_lpm",
+      "target": "h7n9",
+      "weight": 2
+    },
+    {
+      "source": "h7n9",
+      "target": "m_surveillance",
+      "weight": 1
+    },
+    {
+      "source": "h5n6",
+      "target": "h9n2",
+      "weight": 2
+    },
+    {
+      "source": "exp_lpm",
+      "target": "h5n6",
+      "weight": 2
+    },
+    {
+      "source": "h5n6",
+      "target": "m_surveillance",
+      "weight": 1
+    },
+    {
+      "source": "exp_lpm",
+      "target": "h9n2",
+      "weight": 2
+    },
+    {
+      "source": "h9n2",
+      "target": "m_surveillance",
+      "weight": 1
+    },
+    {
+      "source": "exp_lpm",
+      "target": "m_surveillance",
+      "weight": 2
+    },
+    {
+      "source": "exp_occup",
+      "target": "m_surveillance",
+      "weight": 1
+    },
+    {
+      "source": "m_serosurvey",
+      "target": "m_surveillance",
+      "weight": 1
+    },
+    {
+      "source": "exp_aerosol",
+      "target": "h5n6",
+      "weight": 1
+    },
+    {
+      "source": "h5n6",
+      "target": "m_envsampling",
+      "weight": 1
+    },
+    {
+      "source": "exp_aerosol",
+      "target": "h7n9",
+      "weight": 1
+    },
+    {
+      "source": "h7n9",
+      "target": "m_envsampling",
+      "weight": 1
+    },
+    {
+      "source": "exp_aerosol",
+      "target": "h9n2",
+      "weight": 1
+    },
+    {
+      "source": "h9n2",
+      "target": "m_envsampling",
+      "weight": 1
+    },
+    {
+      "source": "exp_aerosol",
+      "target": "exp_lpm",
+      "weight": 1
+    },
+    {
+      "source": "exp_lpm",
+      "target": "m_envsampling",
+      "weight": 1
+    },
+    {
+      "source": "exp_aerosol",
+      "target": "m_envsampling",
+      "weight": 3
+    },
+    {
+      "source": "h10n3",
+      "target": "host_poultry",
+      "weight": 1
+    },
+    {
+      "source": "exp_aerosol",
+      "target": "h10n3",
+      "weight": 1
+    },
+    {
+      "source": "h10n3",
+      "target": "m_experiment",
+      "weight": 1
+    },
+    {
+      "source": "exp_aerosol",
+      "target": "host_poultry",
+      "weight": 2
+    },
+    {
+      "source": "host_poultry",
+      "target": "m_experiment",
+      "weight": 1
+    },
+    {
+      "source": "exp_aerosol",
+      "target": "m_experiment",
+      "weight": 1
+    },
+    {
+      "source": "exp_aerosol",
+      "target": "lpai",
+      "weight": 1
+    },
+    {
+      "source": "lpai",
+      "target": "m_envsampling",
+      "weight": 1
+    },
+    {
+      "source": "exp_aerosol",
+      "target": "hpai",
+      "weight": 3
+    },
+    {
+      "source": "hpai",
+      "target": "m_review",
+      "weight": 1
+    },
+    {
+      "source": "exp_fomite",
+      "target": "hpai",
+      "weight": 1
+    },
+    {
+      "source": "host_wildbird",
+      "target": "hpai",
+      "weight": 1
+    },
+    {
+      "source": "hpai",
+      "target": "m_qra",
+      "weight": 1
+    },
+    {
+      "source": "exp_aerosol",
+      "target": "host_wildbird",
+      "weight": 1
+    },
+    {
+      "source": "exp_aerosol",
+      "target": "m_qra",
+      "weight": 1
+    },
+    {
+      "source": "exp_fomite",
+      "target": "m_qra",
+      "weight": 1
+    },
+    {
+      "source": "host_wildbird",
+      "target": "m_qra",
+      "weight": 1
+    },
+    {
+      "source": "hpai",
+      "target": "m_spatialmodel",
+      "weight": 1
+    },
+    {
+      "source": "exp_aerosol",
+      "target": "m_spatialmodel",
+      "weight": 1
+    },
+    {
+      "source": "h5n8",
+      "target": "host_poultry",
+      "weight": 3
+    },
+    {
+      "source": "exp_aerosol",
+      "target": "h5n8",
+      "weight": 1
+    },
+    {
+      "source": "h5n8",
+      "target": "m_envsampling",
+      "weight": 1
+    },
+    {
+      "source": "host_poultry",
+      "target": "m_envsampling",
+      "weight": 1
+    },
+    {
+      "source": "exp_aerosol",
+      "target": "h5n1",
+      "weight": 1
+    },
+    {
+      "source": "h5n1",
+      "target": "m_kernel",
+      "weight": 1
+    },
+    {
+      "source": "exp_aerosol",
+      "target": "m_kernel",
+      "weight": 1
+    },
+    {
+      "source": "host_poultry",
+      "target": "m_spatialmodel",
+      "weight": 4
+    },
+    {
+      "source": "m_spatialmodel",
+      "target": "t_crossspecies",
+      "weight": 2
+    },
+    {
+      "source": "m_kernel",
+      "target": "m_spatialmodel",
+      "weight": 2
+    },
+    {
+      "source": "host_poultry",
+      "target": "t_crossspecies",
+      "weight": 1
+    },
+    {
+      "source": "host_poultry",
+      "target": "m_kernel",
+      "weight": 2
+    },
+    {
+      "source": "m_kernel",
+      "target": "t_crossspecies",
+      "weight": 1
+    },
+    {
+      "source": "h5n1",
+      "target": "m_spatialmodel",
+      "weight": 1
+    },
+    {
+      "source": "host_wildbird",
+      "target": "m_spatialmodel",
+      "weight": 2
+    },
+    {
+      "source": "m_spatialmodel",
+      "target": "t_onehealth",
+      "weight": 1
+    },
+    {
+      "source": "t_crossspecies",
+      "target": "t_onehealth",
+      "weight": 1
+    },
+    {
+      "source": "h5n2",
+      "target": "host_poultry",
+      "weight": 3
+    },
+    {
+      "source": "h5n2",
+      "target": "m_spatialmodel",
+      "weight": 1
+    },
+    {
+      "source": "h5n2",
+      "target": "m_kernel",
+      "weight": 1
+    },
+    {
+      "source": "h5n1",
+      "target": "host_mammal",
+      "weight": 1
+    },
+    {
+      "source": "h5n1",
+      "target": "t_onehealth",
+      "weight": 1
+    },
+    {
+      "source": "host_mammal",
+      "target": "m_spatiotemp",
+      "weight": 1
+    },
+    {
+      "source": "host_mammal",
+      "target": "t_onehealth",
+      "weight": 1
+    },
+    {
+      "source": "m_spatiotemp",
+      "target": "t_onehealth",
+      "weight": 1
+    },
+    {
+      "source": "t_onehealth",
+      "target": "t_pandemic",
+      "weight": 2
+    },
+    {
+      "source": "t_intlreg",
+      "target": "t_onehealth",
+      "weight": 1
+    },
+    {
+      "source": "t_intlreg",
+      "target": "t_pandemic",
+      "weight": 2
+    },
+    {
+      "source": "h5n1",
+      "target": "t_occprotect",
+      "weight": 2
+    },
+    {
+      "source": "exp_occup",
+      "target": "t_pandemic",
+      "weight": 1
+    },
+    {
+      "source": "t_occprotect",
+      "target": "t_pandemic",
+      "weight": 1
+    },
+    {
+      "source": "m_review",
+      "target": "t_occprotect",
+      "weight": 2
+    },
+    {
+      "source": "m_review",
+      "target": "t_onehealth",
+      "weight": 1
+    },
+    {
+      "source": "exp_fomite",
+      "target": "t_crossspecies",
+      "weight": 1
+    },
+    {
+      "source": "t_crossspecies",
+      "target": "t_occprotect",
+      "weight": 1
+    },
+    {
+      "source": "exp_fomite",
+      "target": "t_occprotect",
+      "weight": 1
+    },
+    {
+      "source": "m_review",
+      "target": "t_intlreg",
+      "weight": 1
+    },
+    {
+      "source": "h5n2",
+      "target": "h5n8",
+      "weight": 1
+    },
+    {
+      "source": "h5n2",
+      "target": "hpai",
+      "weight": 1
+    },
+    {
+      "source": "h5n2",
+      "target": "m_spatiotemp",
+      "weight": 1
+    },
+    {
+      "source": "h5n2",
+      "target": "t_seasonality",
+      "weight": 1
+    },
+    {
+      "source": "h5n8",
+      "target": "hpai",
+      "weight": 1
+    },
+    {
+      "source": "h5n8",
+      "target": "m_spatiotemp",
+      "weight": 1
+    },
+    {
+      "source": "h5n8",
+      "target": "t_seasonality",
+      "weight": 1
+    },
+    {
+      "source": "host_poultry",
+      "target": "hpai",
+      "weight": 1
+    },
+    {
+      "source": "hpai",
+      "target": "m_spatiotemp",
+      "weight": 1
+    },
+    {
+      "source": "hpai",
+      "target": "t_seasonality",
+      "weight": 1
+    },
+    {
+      "source": "host_poultry",
+      "target": "m_spatiotemp",
+      "weight": 1
+    },
+    {
+      "source": "exp_lpm",
+      "target": "h5n2",
+      "weight": 1
+    },
+    {
+      "source": "exp_occup",
+      "target": "h5n2",
+      "weight": 1
+    },
+    {
+      "source": "h5n2",
+      "target": "t_occprotect",
+      "weight": 1
+    },
+    {
+      "source": "exp_lpm",
+      "target": "t_occprotect",
+      "weight": 1
+    },
+    {
+      "source": "h5n8",
+      "target": "host_wildbird",
+      "weight": 1
+    },
+    {
+      "source": "h5n8",
+      "target": "m_review",
+      "weight": 1
+    }
+  ]
+}

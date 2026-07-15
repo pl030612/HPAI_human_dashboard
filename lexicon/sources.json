@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "purpose": "資料來源登錄表（provenance）。每個儀表板數字/圖表的來源機構、可檢視網址、資料截止日、更新頻率、抓取方式。build 腳本原樣帶入 web/data/sources.json，前端就地長出『ⓘ 來源』連結與『資料來源』頁。",
+    "updated": "2026-07-13"
+  },
+  "sources": [
+    {
+      "id": "who_cumulative",
+      "org": "WHO",
+      "org_zh": "世界衛生組織",
+      "title_zh": "A(H5N1) 累計確診人類個案報告",
+      "title_en": "Cumulative confirmed human cases of A(H5N1)",
+      "url": "https://www.who.int/publications/m/item/cumulative-number-of-confirmed-human-cases-for-avian-influenza-a(h5n1)-reported-to-who--2003-2026--31-march-2026",
+      "cadence": "半年", "cadence_en": "Biannual",
+      "method": "手動", "method_en": "Manual",
+      "feeds": ["全球累積人類病例", "CFR", "分國別累計"]
+    },
+    {
+      "id": "cdc_global",
+      "org": "US CDC",
+      "org_zh": "美國疾病管制中心",
+      "title_zh": "Bird Flu 全球摘要與現況",
+      "title_en": "CDC Bird Flu global summary & situation",
+      "url": "https://www.cdc.gov/bird-flu/spotlights/",
+      "cadence": "每月", "cadence_en": "Monthly",
+      "method": "每月哨兵掃描", "method_en": "Monthly sentinel scan",
+      "feeds": ["本季新增個案", "分國別", "流行株/clade"]
+    },
+    {
+      "id": "tw_cdc_news",
+      "org": "Taiwan CDC",
+      "org_zh": "衛福部疾病管制署",
+      "title_zh": "疾管署新聞稿列表",
+      "title_en": "Taiwan CDC press releases",
+      "url": "https://www.cdc.gov.tw/Bulletin/List/MmgtpeidAR5Ooai4-fgHzQ",
+      "cadence": "每月", "cadence_en": "Monthly",
+      "method": "每月哨兵掃描（關鍵字＋日期）", "method_en": "Monthly sentinel (keyword+date)",
+      "feeds": ["台灣人類個案（H5N1本土/全亞型本土/含境外累計）"]
+    },
+    {
+      "id": "moa_aphia",
+      "org": "MOA APHIA",
+      "org_zh": "農業部動植物防疫檢疫署",
+      "title_zh": "禽流感防疫處置表（禽場＋候野鳥監測）",
+      "title_en": "MOA APHIA avian influenza response tables",
+      "url": "https://ai.gov.tw/ws.php?id=2860",
+      "cadence": "每季", "cadence_en": "Quarterly",
+      "method": "手動（PDF/圖片）", "method_en": "Manual (PDF/image)",
+      "feeds": ["台灣家禽疫情", "候野鳥 H5/H7 監測", "季節窗", "野鳥軸"]
+    },
+    {
+      "id": "journals_molecular",
+      "org": "Journals / preprints",
+      "org_zh": "期刊／預印本",
+      "title_zh": "分子演化文獻（EID/Eurosurveillance/bioRxiv 等）",
+      "title_en": "Molecular evolution literature",
+      "url": "https://www.cdc.gov/bird-flu/situation-summary/index.html",
+      "cadence": "每季", "cadence_en": "Quarterly",
+      "method": "季度深報彙整", "method_en": "Compiled in quarterly report",
+      "feeds": ["關鍵突變監測", "哺乳類適應標記 V(i)"]
+    }
+  ]
+}
