@@ -58,7 +58,7 @@ function renderText() {
   const topC = cases.rows[0];
   document.getElementById('map-note').textContent = t('map_note', {
     total: nf.format(cases._meta.total_cases), deaths: cases._meta.total_deaths, n: cases.rows.length,
-    top: getLang() === 'en' ? topC.en : topC.zh, max: topC.cases
+    top: getLang() === 'en' ? topC.en : topC.zh, max: topC.cases, asOf: cases._meta.as_of
   });
 }
 
