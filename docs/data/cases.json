@@ -2,10 +2,10 @@
   "_meta": {
     "purpose": "WHO 分國 H5N1 人類累計確診與死亡（2003–2026）。餵儀表板『人類病例世界地圖 choropleth』。數字逐字取自 WHO/GIP 官方累計表，非推估。",
     "source_org": "WHO/GIP",
-    "source_url": "https://cdn.who.int/media/docs/default-source/influenza/h5n1-human-case-cumulative-table/2026_table_h5n1_may.pdf",
-    "as_of": "2026-05-08",
+    "source_url": "https://www.who.int/publications/m/item/cumulative-number-of-confirmed-human-cases-for-avian-influenza-a(h5n1)-reported-to-who--2003-2026--7-july-2026",
+    "as_of": "2026-07-07",
     "period": "2003–2026",
-    "note": "含通報之無症狀個案；依通報國歸屬（未必為暴露發生國）。1997 香港疫情（18 例）早於 WHO 2003 起算表，未計入。",
+    "note": "含通報之無症狀個案；依通報國歸屬（未必為暴露發生國）。1997 香港疫情（18 例）早於 WHO 2003 起算表，未計入。2026-08-18 查證：7/7版與5/8版逐國數字完全相同（total 1000/479），僅換引用至較新官方版本，數字未變。",
     "total_cases": 1000,
     "total_deaths": 479
   },
