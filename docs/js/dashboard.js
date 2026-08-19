@@ -24,7 +24,7 @@ function renderText() {
     kpi({ label: t('kpi_tw_h5n1'), value: surv.taiwan.h5n1_local, sub: t('kpi_tw_h5n1_sub'), accent: 'success' }),
     kpi({ label: t('kpi_tw_local'), value: surv.taiwan.all_subtype_local, sub: t('kpi_tw_local_sub'), accent: 'warning' }),
     kpi({ label: t('kpi_tw_cum'), value: surv.taiwan.cumulative_incl_imported, sub: t('kpi_tw_cum_sub', { imp: surv.taiwan.cumulative_incl_imported - surv.taiwan.all_subtype_local, y: surv.taiwan.since_year }) }),
-    kpi({ label: t('kpi_tw_poultry'), value: surv.taiwan_poultry.cumulative_outbreaks, sub: t('kpi_tw_poultry_sub', { since: surv.taiwan_poultry.since, asOf: surv.taiwan_poultry.cumulative_as_of, win: pick(surv.taiwan_poultry, 'season_window') }), accent: 'danger' }),
+    kpi({ label: t('kpi_tw_poultry'), value: surv.taiwan_poultry.cumulative_outbreaks, sub: t('kpi_tw_poultry_sub', { since: surv.taiwan_poultry.since, asOf: surv.taiwan_poultry.cumulative_as_of }), accent: 'danger' }),
     kpi({ label: t('kpi_tw_poultry_season'), value: surv.taiwan_poultry.season_outbreaks, sub: t('kpi_tw_poultry_season_sub', { label: pick(surv.taiwan_poultry, 'season_label') }), accent: 'danger' })
   ].join('');
 
