@@ -13,8 +13,8 @@ const [surv, geo, papers, sources, cases] = await Promise.all([
 let aspectChart = null;
 
 function renderText() {
-  document.getElementById('freshness').textContent = t('freshness', { asOf: surv._meta.asOf, next: '2026-10' });
-  document.getElementById('footer-meta').textContent = t('footer_meta', { asOf: surv._meta.asOf });
+  document.getElementById('freshness').textContent = t('freshness', { asOf: surv._meta.lastUpdated, next: '2026-10' });
+  document.getElementById('footer-meta').textContent = t('footer_meta', { asOf: surv._meta.lastUpdated });
 
   const kpi = ({ label, value, sub, accent }) => `<div class="col-6 col-md-4 col-xl">
     <div class="kpi-card ${accent ? 'accent-' + accent : ''}">

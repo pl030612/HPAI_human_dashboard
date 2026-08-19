@@ -128,7 +128,10 @@ for (let r = 1; r < qRows.length; r++) {
   qHeader.forEach((h, i) => { obj[h] = String(qRows[r][i] || '').trim(); });
   quarterly.push(obj);
 }
-const surveillance = { ...kpi, quarterly };
+// lastUpdated 自動抓 build 當下日期，避免每次手動改資料忘了同步更新畫面上的日期顯示
+// （asOf 保留原意＝該季xlsx資料截止/彙整日期，兩者概念不同，不互相覆蓋）
+const lastUpdated = new Date().toISOString().slice(0, 10);
+const surveillance = { ...kpi, quarterly, _meta: { ...kpi._meta, lastUpdated } };
 
 writeFileSync(join(outDir, 'papers.json'), JSON.stringify(papers, null, 2), 'utf8');
 writeFileSync(join(outDir, 'network.json'), JSON.stringify(network, null, 2), 'utf8');

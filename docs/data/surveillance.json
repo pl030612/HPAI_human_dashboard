@@ -2,7 +2,8 @@
   "_meta": {
     "purpose": "監測儀表板頭條數字（策展種子）。每個數字帶 sourceId 對應 sources.json，供前端就地溯源。季度時間序列另由 build 從 xlsx『季度監測』分頁讀入合併。數字皆來自已查證之官方來源，非推估。含中英欄位供 i18n。",
     "updated": "2026-07-13",
-    "asOf": "2026-06-30"
+    "asOf": "2026-06-30",
+    "lastUpdated": "2026-08-19"
   },
   "global": {
     "cumulative_human_cases": 1000,
