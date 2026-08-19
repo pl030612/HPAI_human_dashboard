@@ -23,8 +23,16 @@
     "sourceId": "tw_cdc_news"
   },
   "taiwan_poultry": {
-    "cumulative_outbreaks": 135,
+    "cumulative_outbreaks": 155,
+    "cumulative_as_of": "2026-08",
+    "cumulative_note_zh": "依防檢署111–115年各年度「確診及撲殺養禽場數統計表（按月）」自行逐月加總（111年11–12月26場＋112年50場＋113年41場＋114年23場＋115年1–8月15場）；先前引用之135例為115年1月底新聞稿數字，已過時。",
+    "cumulative_note_en": "Summed month-by-month from APHIA's official annual poultry-farm outbreak tables (2022 Nov-Dec 26 + 2023 50 + 2024 41 + 2025 23 + 2026 Jan-Aug 15). Supersedes the previously cited figure of 135, which was a news citation as of end-Jan 2026 and is now stale.",
     "since": "2022-11",
+    "season_outbreaks": 18,
+    "season_label_zh": "2025-09～2026-04",
+    "season_label_en": "Sep 2025–Apr 2026",
+    "season_note_zh": "最近一個完整流行季：114年9–12月4場＋115年1–4月14場，依防檢署按月統計表加總。",
+    "season_note_en": "Latest complete epidemic season, summed from APHIA's monthly tables: Sep-Dec 2025 (4) + Jan-Apr 2026 (14).",
     "season_window_zh": "12–3 月",
     "season_window_en": "Dec–Mar",
     "sourceId": "moa_aphia"

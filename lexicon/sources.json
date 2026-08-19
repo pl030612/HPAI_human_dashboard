@@ -41,12 +41,12 @@
       "id": "moa_aphia",
       "org": "MOA APHIA",
       "org_zh": "農業部動植物防疫檢疫署",
-      "title_zh": "禽流感防疫處置表（禽場＋候野鳥監測）",
-      "title_en": "MOA APHIA avian influenza response tables",
-      "url": "https://ai.gov.tw/ws.php?id=2860",
+      "title_zh": "禽流感疫情現況（各年度確診及撲殺養禽場數統計表，按月）",
+      "title_en": "MOA APHIA avian influenza situation (annual monthly outbreak/culling tables)",
+      "url": "https://ai.gov.tw/ws.php?id=209",
       "cadence": "每季", "cadence_en": "Quarterly",
-      "method": "手動（PDF/圖片）", "method_en": "Manual (PDF/image)",
-      "feeds": ["台灣家禽疫情", "候野鳥 H5/H7 監測", "季節窗", "野鳥軸"]
+      "method": "手動逐月加總（各年度按月統計表 PDF）", "method_en": "Manual month-by-month aggregation (annual monthly-table PDFs)",
+      "feeds": ["台灣家禽疫情（累計）", "近一流行季禽場疫情", "候野鳥 H5/H7 監測", "季節窗", "野鳥軸"]
     },
     {
       "id": "journals_molecular",
