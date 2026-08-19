@@ -1,7 +1,8 @@
 import { initI18n, applyStatic, wireLangToggle, t, trMap, pick, getLang } from './i18n.js';
+import { BUILD_VERSION } from './build-version.js';
 
 const d3 = window.d3, topojson = window.topojson, Chart = window.Chart;
-const load = f => fetch('data/' + f).then(r => r.json());
+const load = f => fetch('data/' + f + '?v=' + BUILD_VERSION).then(r => r.json());
 const nf = new Intl.NumberFormat('en-US');
 
 await initI18n();

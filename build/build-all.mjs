@@ -7,7 +7,20 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
 const lexDir = join(root, 'lexicon');
 const outDir = join(root, 'docs', 'data');
+const jsDir = join(root, 'docs', 'js');
 mkdirSync(outDir, { recursive: true });
+
+// 每次 build 產生新版本號，用來 cache-bust data/*.json 與 js/css 檔案，
+// 避免使用者瀏覽器沿用舊快取看到過期數字（GH Pages 本身也有 CDN 快取延遲）。
+const BUILD_VERSION = Date.now().toString(36);
+writeFileSync(join(jsDir, 'build-version.js'), `export const BUILD_VERSION = ${JSON.stringify(BUILD_VERSION)};\n`, 'utf8');
+for (const htmlFile of ['index.html', 'literature.html']) {
+  const p = join(root, 'docs', htmlFile);
+  let html = readFileSync(p, 'utf8');
+  html = html.replace(/src="js\/(dashboard|literature)\.js(\?v=[^"]*)?"/g, `src="js/$1.js?v=${BUILD_VERSION}"`);
+  html = html.replace(/href="css\/style\.css(\?v=[^"]*)?"/g, `href="css/style.css?v=${BUILD_VERSION}"`);
+  writeFileSync(p, html, 'utf8');
+}
 
 const XLSX_PATH = 'D:/01_Research/115_NTUH_H5N1_human/文獻資料庫_HPAI_H5N1.xlsx';
 
@@ -134,6 +147,7 @@ console.log(`surveillance.json: KPI + ${quarterly.length} 季`);
 console.log(`cases.json       : ${cases.rows.length} 國病例（總 ${cases._meta.total_cases}）`);
 console.log(`sources.json     : ${sources.sources.length} 來源`);
 console.log(`lexicon.json     : ${lexicon.terms.length} 詞條 (複製)`);
+console.log(`build-version.js : ${BUILD_VERSION}（已寫入 index.html/literature.html 的 script/css 版本號）`);
 if (unresolved.size) console.log(`[!] 未解析標籤: ${[...unresolved].join(', ')}`);
 else console.log('[OK] 全部標籤解析成功');
 console.log('輸出 →', outDir, '\n');

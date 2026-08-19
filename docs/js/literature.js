@@ -1,7 +1,8 @@
 import { initI18n, applyStatic, wireLangToggle, t, trMap, pick, catLabel, getLang } from './i18n.js';
+import { BUILD_VERSION } from './build-version.js';
 
 const d3 = window.d3, topojson = window.topojson;
-const load = f => fetch('data/' + f).then(r => r.json());
+const load = f => fetch('data/' + f + '?v=' + BUILD_VERSION).then(r => r.json());
 await initI18n();
 const [papers, net, lexicon, geo] = await Promise.all([
   load('papers.json'), load('network.json'), load('lexicon.json'), load('geo.json')

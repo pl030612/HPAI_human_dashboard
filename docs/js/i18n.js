@@ -1,8 +1,10 @@
+import { BUILD_VERSION } from './build-version.js';
+
 let LANG = localStorage.getItem('hpai_lang') || 'zh';
 let DICT = null;
 
 export async function initI18n() {
-  DICT = await fetch('data/i18n.json').then(r => r.json());
+  DICT = await fetch('data/i18n.json?v=' + BUILD_VERSION).then(r => r.json());
   document.documentElement.lang = LANG === 'en' ? 'en' : 'zh-Hant';
   return DICT;
 }
