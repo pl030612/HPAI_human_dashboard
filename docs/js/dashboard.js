@@ -6,8 +6,8 @@ const load = f => fetch('data/' + f + '?v=' + BUILD_VERSION).then(r => r.json())
 const nf = new Intl.NumberFormat('en-US');
 
 await initI18n();
-const [surv, geo, papers, sources, cases] = await Promise.all([
-  load('surveillance.json'), load('geo.json'), load('papers.json'), load('sources.json'), load('cases.json')
+const [surv, geo, papers, sources, cases, changelog] = await Promise.all([
+  load('surveillance.json'), load('geo.json'), load('papers.json'), load('sources.json'), load('cases.json'), load('changelog.json')
 ]);
 
 let aspectChart = null;
@@ -55,7 +55,23 @@ function renderText() {
       <td class="text-secondary">${getLang() === 'en' ? s.org : s.org_zh}</td>
       <td><span class="badge text-bg-light">${pick(s, 'cadence')}</span></td>
       <td class="small text-secondary">${pick(s, 'method')}</td>
+      <td class="small text-secondary">${s.verifiedAt || '—'}</td>
       <td><a href="${s.url}" target="_blank" rel="noopener" class="text-decoration-none">${t('src_link')}</a></td></tr>`).join('');
+
+  const repoBase = changelog._meta.repo_url;
+  document.getElementById('changelog-list').innerHTML = changelog.entries.map(e => {
+    const fieldLine = e.field_zh
+      ? `<div class="text-secondary">${pick(e, 'field')}：${pick(e, 'before')} → <strong>${pick(e, 'after')}</strong></div>`
+      : '';
+    return `<div class="pb-2 mb-2 border-bottom small">
+      <div class="d-flex justify-content-between">
+        <strong>${e.date}</strong>
+        <a href="${repoBase}${e.hash}" target="_blank" rel="noopener" class="text-secondary text-decoration-none">#${e.hash}</a>
+      </div>
+      ${fieldLine}
+      <div>${pick(e, 'summary')}</div>
+    </div>`;
+  }).join('');
 
   const topC = cases.rows[0];
   document.getElementById('map-note').textContent = t('map_note', {

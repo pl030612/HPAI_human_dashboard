@@ -1,0 +1,68 @@
+{
+  "_meta": {
+    "purpose": "資料異動紀錄，供外部讀者稽核儀表板數字何時、為何變動。人工維護：每次修正數字或口徑時即時新增一筆，不回填修飾、不刪除歷史紀錄。build 腳本原樣複製到 docs/data/changelog.json。",
+    "repo_url": "https://github.com/pl030612/HPAI_human_dashboard/commit/"
+  },
+  "entries": [
+    {
+      "hash": "ae70edd",
+      "date": "2026-08-19",
+      "summary_zh": "首頁左上角與頁尾「資料截止」改為「更新日期」，自動抓 build 當下日期，不再手動維護。",
+      "summary_en": "Top-left and footer label changed from \"data as of\" to \"last updated\", now auto-populated from build time instead of manually maintained."
+    },
+    {
+      "hash": "48220b5",
+      "date": "2026-08-19",
+      "summary_zh": "加入自動版本號機制（cache-busting）。此前更新數字 push 後，讀者瀏覽器可能沿用快取，需手動強制重新整理才看得到新內容。",
+      "summary_en": "Added automatic cache-busting versioning. Previously, readers' browsers could keep serving cached content after an update was pushed, requiring a manual hard refresh."
+    },
+    {
+      "hash": "0ca940f",
+      "date": "2026-08-19",
+      "field_zh": "本季概況卡片・全球累計",
+      "field_en": "Quarterly overview card · Global cumulative",
+      "before": "1,022（自1997，CDC口徑）",
+      "before_en": "1,022 (since 1997, CDC basis)",
+      "after": "1,000（自2003，WHO口徑）",
+      "after_en": "1,000 (since 2003, WHO basis)",
+      "summary_zh": "統一全站「全球累計」口徑為 WHO 自2003 表，原季度卡片沿用 CDC 自1997 口徑，與主 KPI／地圖不一致，同頁並列易誤讀為錯誤。書面季報（監測快報_2026Q2.md）同步修正。",
+      "summary_en": "Standardized the site-wide \"global cumulative\" figure to the WHO since-2003 table. The quarterly card had used the CDC since-1997 basis, which conflicted with the main KPI/map on the same page. The Q2 written report was updated to match."
+    },
+    {
+      "hash": "0b097e1",
+      "date": "2026-08-19",
+      "summary_zh": "簡化「台灣家禽場疫情」卡片文案（拿掉「典型季節12-3月」），避免讀者誤以為累計數字也是流行季口徑。",
+      "summary_en": "Simplified the \"Taiwan poultry farm outbreaks\" card copy (removed \"typical season Dec-Mar\") to avoid readers mistaking the cumulative figure for a season-only count."
+    },
+    {
+      "hash": "10059eb",
+      "date": "2026-08-19",
+      "field_zh": "台灣家禽場疫情（累計）",
+      "field_en": "Taiwan poultry farm outbreaks (cumulative)",
+      "before": "135（截至2026年1月底新聞引用數字，已過時）",
+      "before_en": "135 (news citation as of end-Jan 2026, since outdated)",
+      "after": "155（自行依防檢署111–115年官方按月統計表逐月加總，2022-11–2026-08）",
+      "after_en": "155 (aggregated month-by-month from APHIA's official annual tables, Nov 2022–Aug 2026)",
+      "summary_zh": "原135例為舊聞稿引用數字，2、3、4月新增9場與6月彰化夏季首例後一直沒更新。改用官方按月統計表自行加總，並新增「近一流行季（2025-09～2026-04）」卡片，累計18場，同一來源。",
+      "summary_en": "The figure 135 was a stale news citation that never accounted for 9 additional outbreaks in Feb-Apr plus the June Changhua summer case. Replaced with a self-aggregated total from official monthly tables, and added a new \"latest epidemic season (Sep 2025-Apr 2026)\" card at 18 outbreaks from the same source."
+    },
+    {
+      "hash": "ae67ce4",
+      "date": "2026-08-18",
+      "summary_zh": "修正地圖卡片「資料截止」日期顯示邏輯：原本日期文字寫死在樣板字串裡，更新引用來源後畫面仍顯示舊日期，改為動態帶入實際資料日期。",
+      "summary_en": "Fixed the map card's \"data as of\" date, which was hardcoded in the template string and kept showing the old date even after the underlying source was updated. Now populated dynamically from the actual data date."
+    },
+    {
+      "hash": "f566fed",
+      "date": "2026-08-18",
+      "field_zh": "WHO 分國累計表引用版本",
+      "field_en": "WHO country-level cumulative table citation",
+      "before": "2026-05-08 版",
+      "before_en": "2026-05-08 edition",
+      "after": "2026-07-07 版",
+      "after_en": "2026-07-07 edition",
+      "summary_zh": "換引用至較新官方版本；逐國數字經核對與5月版完全相同，本次僅更新引用來源與截止日，未改動任何數字。",
+      "summary_en": "Switched citation to the newer official edition. Country-level figures were verified identical to the May edition — only the citation and as-of date changed, no numbers were altered."
+    }
+  ]
+}

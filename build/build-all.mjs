@@ -29,6 +29,7 @@ const countryMap = JSON.parse(readFileSync(join(lexDir, 'country-map.json'), 'ut
 const sources = JSON.parse(readFileSync(join(lexDir, 'sources.json'), 'utf8'));
 const kpi = JSON.parse(readFileSync(join(lexDir, 'surveillance-kpi.json'), 'utf8'));
 const cases = JSON.parse(readFileSync(join(lexDir, 'cases-by-country.json'), 'utf8'));
+const changelog = JSON.parse(readFileSync(join(lexDir, 'changelog.json'), 'utf8'));
 
 const resolver = new Map();
 for (const t of lexicon.terms) {
@@ -140,6 +141,7 @@ writeFileSync(join(outDir, 'surveillance.json'), JSON.stringify(surveillance, nu
 writeFileSync(join(outDir, 'sources.json'), JSON.stringify(sources, null, 2), 'utf8');
 copyFileSync(join(lexDir, 'lexicon.json'), join(outDir, 'lexicon.json'));
 copyFileSync(join(lexDir, 'i18n.json'), join(outDir, 'i18n.json'));
+copyFileSync(join(lexDir, 'changelog.json'), join(outDir, 'changelog.json'));
 writeFileSync(join(outDir, 'cases.json'), JSON.stringify(cases, null, 2), 'utf8');
 
 console.log('\n=== build-all 完成 ===');
@@ -150,6 +152,7 @@ console.log(`surveillance.json: KPI + ${quarterly.length} 季`);
 console.log(`cases.json       : ${cases.rows.length} 國病例（總 ${cases._meta.total_cases}）`);
 console.log(`sources.json     : ${sources.sources.length} 來源`);
 console.log(`lexicon.json     : ${lexicon.terms.length} 詞條 (複製)`);
+console.log(`changelog.json   : ${changelog.entries.length} 筆異動紀錄 (複製)`);
 console.log(`build-version.js : ${BUILD_VERSION}（已寫入 index.html/literature.html 的 script/css 版本號）`);
 if (unresolved.size) console.log(`[!] 未解析標籤: ${[...unresolved].join(', ')}`);
 else console.log('[OK] 全部標籤解析成功');
