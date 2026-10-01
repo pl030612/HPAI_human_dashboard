@@ -5,6 +5,18 @@
   },
   "entries": [
     {
+      "hash": "fa1c628",
+      "date": "2026-10-01",
+      "field_zh": "季度監測 2026 Q3・新哺乳類宿主／地理擴散；台灣本土個案註記",
+      "field_en": "Quarterly 2026 Q3 · new mammal hosts / geographic spread; Taiwan local-case note",
+      "before": "新宿主：無官方確認新物種；台灣本土首例註記為 H7",
+      "before_en": "New hosts: no officially confirmed new species; Taiwan's first local case noted as H7",
+      "after": "新宿主：美國圈養美洲水貂首次檢出 H5（ECDC）、澳洲外溢至哺乳類；台灣本土首例註記為 H7N7",
+      "after_en": "New hosts: first H5 detection in captive American mink in the US (ECDC), spillover to mammals in Australia; Taiwan's first local case noted as H7N7",
+      "summary_zh": "併入 2026-09 月哨兵快訊：Q3 列補上 ECDC 6–8 月總覽記錄的美國圈養水貂新宿主，以及澳洲本土 H5N1 野鳥檢出 20→102 並外溢至哺乳類。台灣本土首例依疾管署 5/5 定序結果註記為 H7N7。CIDRAP 所稱「台灣 1 例 H9N2」在疾管署新聞稿查無公告，三口徑不予變動。",
+      "summary_en": "Merged the Sep 2026 sentinel scan: the Q3 row now includes the new captive-mink host from ECDC's Jun–Aug overview and Australia's H5N1 spread (wild-bird detections 20→102, spillover to mammals). Taiwan's first local case is now noted as H7N7 per Taiwan CDC's 5 May sequencing. A CIDRAP mention of \"one H9N2 case in Taiwan\" could not be found in Taiwan CDC releases, so the three counts are unchanged."
+    },
+    {
       "hash": "6660198",
       "date": "2026-10-01",
       "field_zh": "全球累計人類病例／WHO 分國累計表",
