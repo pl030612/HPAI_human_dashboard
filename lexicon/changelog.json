@@ -5,6 +5,18 @@
   },
   "entries": [
     {
+      "hash": "6660198",
+      "date": "2026-10-01",
+      "field_zh": "全球累計人類病例／WHO 分國累計表",
+      "field_en": "Global cumulative human cases / WHO country-level table",
+      "before": "1,000 例／479 死（WHO 2026-07-07 版）",
+      "before_en": "1,000 cases / 479 deaths (WHO 7 July 2026 edition)",
+      "after": "1,003 例／479 死（WHO 2026-09-06 版）",
+      "after_en": "1,003 cases / 479 deaths (WHO 6 September 2026 edition)",
+      "summary_zh": "2026 Q3 季報查證：換引用至 WHO 9/6 版並逐國比對，孟加拉 13→15、柬埔寨 94→95，死亡數不變，其餘國家相同。季度監測新增 2026 Q3 一列；台灣人類個案三口徑（0／1／5）本季無變動。",
+      "summary_en": "2026 Q3 quarterly review: switched to the WHO 6 Sep edition and checked every country. Bangladesh 13→15 and Cambodia 94→95, deaths unchanged, all other countries identical. Added the 2026 Q3 row to the quarterly series; Taiwan's three human-case counts (0/1/5) unchanged this quarter."
+    },
+    {
       "hash": "ae70edd",
       "date": "2026-08-19",
       "summary_zh": "首頁左上角與頁尾「資料截止」改為「更新日期」，自動抓 build 當下日期，不再手動維護。",
