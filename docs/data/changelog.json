@@ -5,6 +5,18 @@
   },
   "entries": [
     {
+      "hash": "83d082d",
+      "date": "2026-10-01",
+      "field_zh": "文獻情報・文獻總數",
+      "field_en": "Literature · total papers",
+      "before": "54 篇",
+      "before_en": "54 papers",
+      "after": "56 篇",
+      "after_en": "56 papers",
+      "summary_zh": "新增 2026 Q3 季報引用的兩篇：EID 2026 年 8 月 2.3.4.4b D1.2 豬隻實驗感染研究、台灣職業接觸者成對血清監測（Lin 等，IRV 2026，血清轉換 0/122）。自本季起，季度排程會固定檢索並增補當季文獻。",
+      "summary_en": "Added two papers cited in the 2026 Q3 report: EID (Aug 2026) experimental infection of swine with 2.3.4.4b genotype D1.2, and Taiwan's paired-sera surveillance of occupational contacts (Lin et al., IRV 2026; 0/122 seroconversion). Starting this quarter, the quarterly scheduled review searches for and adds new literature each quarter."
+    },
+    {
       "hash": "fa1c628",
       "date": "2026-10-01",
       "field_zh": "季度監測 2026 Q3・新哺乳類宿主／地理擴散；台灣本土個案註記",
