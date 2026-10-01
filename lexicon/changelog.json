@@ -5,6 +5,12 @@
   },
   "entries": [
     {
+      "hash": "0480f5e",
+      "date": "2026-10-01",
+      "summary_zh": "文獻情報頁頂部與頁尾加上「文獻庫更新日期」，只在文獻內容實際變動時更新，不受監測數字重建影響。另外，首頁「下次季度深報」原本寫死為 2026-10，改為依更新日期自動推算下一個 1/4/7/10 月。",
+      "summary_en": "Added a \"library updated\" date to the top bar and footer of the Literature page; it changes only when the literature content itself changes, not on every rebuild. The dashboard's \"next deep report\" month, previously hardcoded as 2026-10, is now computed automatically as the next Jan/Apr/Jul/Oct after the update date."
+    },
+    {
       "hash": "83d082d",
       "date": "2026-10-01",
       "field_zh": "文獻情報・文獻總數",
