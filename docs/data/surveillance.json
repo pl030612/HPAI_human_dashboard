@@ -19,8 +19,8 @@
     "all_subtype_local": 1,
     "cumulative_incl_imported": 5,
     "since_year": 2014,
-    "note_zh": "全亞型本土 1 例為 2026-04 首例本土 H7（禽場從業者、職業暴露、存活）；累計 5 含境外移入 4。H5N1 本土維持 0（pre-emergence 基線）。",
-    "note_en": "The single locally-acquired all-subtype case is Taiwan's first domestic H7 (poultry worker, occupational exposure, survived), April 2026; the cumulative 5 includes 4 imported. Local H5N1 remains 0 (pre-emergence baseline).",
+    "note_zh": "全亞型本土 1 例為 2026-04 首例本土 H7（定序為 H7N7；禽場從業者、職業暴露、存活）；累計 5 含境外移入 4。H5N1 本土維持 0（pre-emergence 基線）。2026 Q3 三口徑均無變動（疾管署 7–9 月新聞稿無新型A型流感人類個案）。",
+    "note_en": "The single locally-acquired all-subtype case is Taiwan's first domestic H7 (sequenced as H7N7; poultry worker, occupational exposure, survived), April 2026; the cumulative 5 includes 4 imported. Local H5N1 remains 0 (pre-emergence baseline). No change in any of the three counts in 2026 Q3 (no novel influenza A human cases in Taiwan CDC releases, Jul–Sep).",
     "sourceId": "tw_cdc_news"
   },
   "taiwan_poultry": {
@@ -118,11 +118,11 @@
       "季別": "2026 Q3",
       "新增人類個案(國別/年齡/暴露源/亞型/結局)": "H5N1: 柬埔寨1(9月齡女嬰/住家家禽/2.3.2.1系/住院未死); 孟加拉1(Rangpur兒童/住家鴨雞/待定序,區域常見2.3.2.1a/住院改善); 柬埔寨1(49歲男/禽場病死雞/2.3.2.1e重組/住院); 補記孟加拉Sylhet病童(Q2發病,Q3入WHO表). H9N2: 中國11例(多幼童輕症/活禽). 台灣: 無新增(H5N1本土0/全亞型本土1/含境外5)",
       "全球累計": "1,003例/479死(WHO自2003, 2026-09-06版)",
-      "新哺乳類宿主": "無官方確認新物種; EID證實D1.2可實驗感染豬(亞臨床全身性)",
+      "新哺乳類宿主": "ECDC: 美國圈養美洲水貂首次檢出H5(新宿主); 澳洲H5外溢至陸生食肉動物與海洋哺乳類; EID證實D1.2可實驗感染豬(亞臨床全身性)",
       "關鍵突變": "D1.2帶16個哺乳類適應標記: PB2 L89V/G309D/T339K/R477G/I495V/A676T組合(E627K補償型), PB1-F2 N66S",
-      "地理擴散事件": "台灣非典型季節H5N1: 6月彰化鵪鶉場, 9月桃園大園珠雞場(撲殺2,616); 亞洲2.3.2.1與美洲2.3.4.4b兩軸並存",
+      "地理擴散事件": "台灣非典型季節H5N1: 6月彰化鵪鶉場, 9月桃園大園珠雞場(撲殺2,616); 澳洲本土野鳥H5N1檢出20→102(南澳為主, 家禽未檢出); 亞洲2.3.2.1與美洲2.3.4.4b兩軸並存",
       "對本土參數的意涵": "季節窗加9-11月肩期權重; 台灣節點V(i)以2.3.4.4b為基準; 本土職業接觸者血清轉換0/122(暴露≠感染,加PPE修正); H9N2列入全亞型背景監測; 預留豬場節點",
-      "主要來源": "WHO累計表9/6版/WHO HAI/EID 32(8)/IRV 2026/Taipei Times/疾管署",
+      "主要來源": "WHO累計表9/6版/WHO HAI/ECDC 6-8月總覽/EID 32(8)/IRV 2026/Taipei Times/疾管署",
       "出刊日": "46296"
     }
   ]

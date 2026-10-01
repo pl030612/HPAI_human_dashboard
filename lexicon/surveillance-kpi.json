@@ -18,8 +18,8 @@
     "all_subtype_local": 1,
     "cumulative_incl_imported": 5,
     "since_year": 2014,
-    "note_zh": "全亞型本土 1 例為 2026-04 首例本土 H7（禽場從業者、職業暴露、存活）；累計 5 含境外移入 4。H5N1 本土維持 0（pre-emergence 基線）。",
-    "note_en": "The single locally-acquired all-subtype case is Taiwan's first domestic H7 (poultry worker, occupational exposure, survived), April 2026; the cumulative 5 includes 4 imported. Local H5N1 remains 0 (pre-emergence baseline).",
+    "note_zh": "全亞型本土 1 例為 2026-04 首例本土 H7（定序為 H7N7；禽場從業者、職業暴露、存活）；累計 5 含境外移入 4。H5N1 本土維持 0（pre-emergence 基線）。2026 Q3 三口徑均無變動（疾管署 7–9 月新聞稿無新型A型流感人類個案）。",
+    "note_en": "The single locally-acquired all-subtype case is Taiwan's first domestic H7 (sequenced as H7N7; poultry worker, occupational exposure, survived), April 2026; the cumulative 5 includes 4 imported. Local H5N1 remains 0 (pre-emergence baseline). No change in any of the three counts in 2026 Q3 (no novel influenza A human cases in Taiwan CDC releases, Jul–Sep).",
     "sourceId": "tw_cdc_news"
   },
   "taiwan_poultry": {
