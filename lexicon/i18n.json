@@ -34,6 +34,7 @@
       "map2_title": "研究地點分布", "map2_hint": "點國家＝篩選該國文獻",
       "results_empty": "無符合文獻，試著移除部分篩選。",
       "litcount": "{n} / {total} 篇", "litcount_footer": "顯示 {n} 篇（共 {total} 篇）",
+      "lit_freshness": "文獻庫更新日期 {asOf}", "lit_freshness_footer": "文獻庫更新日期 {asOf}（每季 1/4/7/10 月增補，下次 {next}）",
       "footer_lit": "關鍵字經領域詞庫歸一（同義詞合併、中英雙語）· 資料源 build-all.mjs"
     },
     "en": {
@@ -69,6 +70,7 @@
       "map2_title": "Study locations", "map2_hint": "click country = filter its papers",
       "results_empty": "No matching papers; try removing some filters.",
       "litcount": "{n} / {total} papers", "litcount_footer": "Showing {n} of {total} papers",
+      "lit_freshness": "Library updated {asOf}", "lit_freshness_footer": "Library updated {asOf} (added quarterly in Jan/Apr/Jul/Oct; next {next})",
       "footer_lit": "Keywords normalized via domain lexicon (synonym merge, bilingual) · built by build-all.mjs"
     }
   },

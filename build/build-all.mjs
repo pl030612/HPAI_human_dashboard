@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, mkdirSync, copyFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, copyFileSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { read, utils } from 'xlsx';
@@ -134,7 +134,21 @@ for (let r = 1; r < qRows.length; r++) {
 const lastUpdated = new Date().toISOString().slice(0, 10);
 const surveillance = { ...kpi, quarterly, _meta: { ...kpi._meta, lastUpdated } };
 
-writeFileSync(join(outDir, 'papers.json'), JSON.stringify(papers, null, 2), 'utf8');
+// 文獻庫更新日期：只有文獻內容真的變動時才換成 build 當天，
+// 單純重 build（例如季度 KPI 更新）不會讓文獻頁顯示「剛更新」
+const papersStr = JSON.stringify(papers, null, 2);
+const papersPath = join(outDir, 'papers.json');
+const litMetaPath = join(outDir, 'literature-meta.json');
+const prevPapers = existsSync(papersPath) ? readFileSync(papersPath, 'utf8').replace(/\r\n/g, '\n') : null;
+const prevLitMeta = existsSync(litMetaPath) ? JSON.parse(readFileSync(litMetaPath, 'utf8')) : null;
+const papersChanged = prevPapers !== papersStr;
+const litMeta = {
+  lastUpdated: (!papersChanged && prevLitMeta?.lastUpdated) || lastUpdated,
+  total: papers.length
+};
+
+writeFileSync(papersPath, papersStr, 'utf8');
+writeFileSync(litMetaPath, JSON.stringify(litMeta, null, 2), 'utf8');
 writeFileSync(join(outDir, 'network.json'), JSON.stringify(network, null, 2), 'utf8');
 writeFileSync(join(outDir, 'geo.json'), JSON.stringify(geo, null, 2), 'utf8');
 writeFileSync(join(outDir, 'surveillance.json'), JSON.stringify(surveillance, null, 2), 'utf8');
@@ -145,7 +159,7 @@ copyFileSync(join(lexDir, 'changelog.json'), join(outDir, 'changelog.json'));
 writeFileSync(join(outDir, 'cases.json'), JSON.stringify(cases, null, 2), 'utf8');
 
 console.log('\n=== build-all 完成 ===');
-console.log(`papers.json      : ${papers.length} 筆文獻`);
+console.log(`papers.json      : ${papers.length} 筆文獻（文獻庫更新日期 ${litMeta.lastUpdated}${papersChanged ? '，本次有變動' : '，本次無變動'}）`);
 console.log(`network.json     : ${nodes.length} 節點 / ${edges.length} 邊`);
 console.log(`geo.json         : ${geo.by_country.length} 國家落點；scope ${JSON.stringify(scopeTally)}`);
 console.log(`surveillance.json: KPI + ${quarterly.length} 季`);

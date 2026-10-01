@@ -4,9 +4,16 @@ import { BUILD_VERSION } from './build-version.js';
 const d3 = window.d3, topojson = window.topojson;
 const load = f => fetch('data/' + f + '?v=' + BUILD_VERSION).then(r => r.json());
 await initI18n();
-const [papers, net, lexicon, geo] = await Promise.all([
-  load('papers.json'), load('network.json'), load('lexicon.json'), load('geo.json')
+const [papers, net, lexicon, geo, litMeta] = await Promise.all([
+  load('papers.json'), load('network.json'), load('lexicon.json'), load('geo.json'),
+  load('literature-meta.json').catch(() => null)
 ]);
+// 季度增補排程固定在 1/4/7/10 月初
+const nextQuarterly = asOf => {
+  const [y, m] = asOf.split('-').map(Number);
+  const nm = [1, 4, 7, 10].find(q => q > m);
+  return nm ? `${y}-${String(nm).padStart(2, '0')}` : `${y + 1}-01`;
+};
 
 const term = new Map(lexicon.terms.map(t => [t.canonical, t]));
 const catColor = { subtype: '#2a78d6', clade: '#4a3aa7', mutation: '#e34948', host: '#1baf7a', exposure: '#eda100', method: '#888780', theme: '#e87ba4' };
@@ -55,6 +62,10 @@ function renderResults() {
   const list = filtered();
   document.getElementById('lit-count').textContent = t('litcount', { n: list.length, total: papers.length });
   document.getElementById('lit-count-footer').textContent = t('litcount_footer', { n: list.length, total: papers.length });
+  if (litMeta) {
+    document.getElementById('lit-freshness').textContent = t('lit_freshness', { asOf: litMeta.lastUpdated });
+    document.getElementById('lit-freshness-footer').textContent = t('lit_freshness_footer', { asOf: litMeta.lastUpdated, next: nextQuarterly(litMeta.lastUpdated) });
+  }
   const el = document.getElementById('results');
   if (!list.length) { el.innerHTML = `<div class="card"><div class="card-body text-secondary small">${t('results_empty')}</div></div>`; return; }
   el.innerHTML = list.map(p => `

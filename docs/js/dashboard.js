@@ -11,9 +11,15 @@ const [surv, geo, papers, sources, cases, changelog] = await Promise.all([
 ]);
 
 let aspectChart = null;
+// 季度深報固定在 1/4/7/10 月初：取更新日期之後的下一個季度月
+const nextQuarterly = asOf => {
+  const [y, m] = asOf.split('-').map(Number);
+  const nm = [1, 4, 7, 10].find(q => q > m);
+  return nm ? `${y}-${String(nm).padStart(2, '0')}` : `${y + 1}-01`;
+};
 
 function renderText() {
-  document.getElementById('freshness').textContent = t('freshness', { asOf: surv._meta.lastUpdated, next: '2026-10' });
+  document.getElementById('freshness').textContent = t('freshness', { asOf: surv._meta.lastUpdated, next: nextQuarterly(surv._meta.lastUpdated) });
   document.getElementById('footer-meta').textContent = t('footer_meta', { asOf: surv._meta.lastUpdated });
 
   const kpi = ({ label, value, sub, accent }) => `<div class="col-6 col-md-4 col-xl">
