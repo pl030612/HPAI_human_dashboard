@@ -9,7 +9,7 @@
         39.5,
         -98.35
       ],
-      "paper_count": 14
+      "paper_count": 15
     },
     {
       "iso": "CHN",
@@ -23,17 +23,6 @@
       "paper_count": 5
     },
     {
-      "iso": "CAN",
-      "iso_num": "124",
-      "en": "Canada",
-      "zh": "加拿大",
-      "centroid": [
-        56.13,
-        -106.35
-      ],
-      "paper_count": 3
-    },
-    {
       "iso": "TWN",
       "iso_num": "158",
       "en": "Taiwan",
@@ -41,6 +30,17 @@
       "centroid": [
         23.7,
         120.96
+      ],
+      "paper_count": 4
+    },
+    {
+      "iso": "CAN",
+      "iso_num": "124",
+      "en": "Canada",
+      "zh": "加拿大",
+      "centroid": [
+        56.13,
+        -106.35
       ],
       "paper_count": 3
     },
@@ -101,7 +101,7 @@
     }
   ],
   "scope_tally": {
-    "country": 30,
+    "country": 32,
     "region": 4,
     "global": 17,
     "none": 3

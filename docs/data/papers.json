@@ -1324,5 +1324,61 @@
     ],
     "iso": [],
     "scope": "global"
+  },
+  {
+    "id": "P055",
+    "aspect": "B 哺乳類跨物種",
+    "title": "EID 2026：2.3.4.4b 基因型 D1.2 實驗接種豬隻之感染",
+    "title_en": "Detection of HPAI A(H5N1) clade 2.3.4.4b genotype D1.2 virus in swine after experimental inoculation (EID 2026)",
+    "year": "2026",
+    "subtype": "H5N1",
+    "region_label": "美國",
+    "study_type": "實驗",
+    "exposure": "豬",
+    "findings": "豬隻亞臨床但全身性感染(含骨骼肌)，35天後呼吸道與CNS仍可檢出、抗體反應弱；病毒帶16個哺乳類適應標記，PB2 L89V/G309D/T339K/R477G/I495V/A676T組合可補償E627K，另有PB1-F2 N66S",
+    "findings_en": "Subclinical but systemic infection in pigs (incl. skeletal muscle), virus still detectable in respiratory and CNS tissue at 35 dpi with weak antibody responses; 16 mammalian adaptation markers incl. a PB2 constellation compensating for E627K, plus PB1-F2 N66S",
+    "model_param": "哺乳類適應突變清單、豬場節點(預留)",
+    "url": "https://wwwnc.cdc.gov/eid/article/32/8/25-1765_article",
+    "tags": [
+      "h5n1",
+      "clade_2344b",
+      "host_swine",
+      "t_mammadapt",
+      "t_crossspecies",
+      "m_experiment"
+    ],
+    "iso": [
+      "USA"
+    ],
+    "scope": "country"
+  },
+  {
+    "id": "P056",
+    "aspect": "E 職業暴露/血清",
+    "title": "台灣禽流感職業接觸者成對血清監測 2025年1-9月 (Lin 等, IRV 2026)",
+    "title_en": "Serological surveillance of avian influenza exposure using paired sera among occupational contacts in Taiwan, Jan–Sep 2025 (Lin et al., IRV 2026)",
+    "year": "2026",
+    "subtype": "H5 亞型",
+    "region_label": "台灣",
+    "study_type": "血清調查",
+    "exposure": "家禽",
+    "findings": "76起禽場疫情之122名職業接觸者(禽場工作者、防疫檢查、撲殺清場)，HI檢測H5N2(2.3.4.4b)與H5N8(2.3.4.4c)，血清轉換0例；PPE遵從率91.8%",
+    "findings_en": "122 occupational contacts from 76 poultry outbreaks tested by HI against H5N2 (2.3.4.4b) and H5N8 (2.3.4.4c): no seroconversion; PPE compliance 91.8%",
+    "model_param": "暴露→感染機率上界(0/122，95%上界約2.5%)、PPE修正因子",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13386101/",
+    "tags": [
+      "h5_generic",
+      "h5n2",
+      "h5n8",
+      "clade_2344b",
+      "host_poultry",
+      "exp_occup",
+      "m_serosurvey",
+      "t_occprotect"
+    ],
+    "iso": [
+      "TWN"
+    ],
+    "scope": "country"
   }
 ]

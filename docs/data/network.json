@@ -5,7 +5,7 @@
       "zh": "H5N1",
       "en": "H5N1",
       "category": "subtype",
-      "count": 28
+      "count": 29
     },
     {
       "id": "m_surveillance",
@@ -19,7 +19,7 @@
       "zh": "家禽",
       "en": "Poultry",
       "category": "host",
-      "count": 17
+      "count": 18
     },
     {
       "id": "t_cfr",
@@ -89,7 +89,7 @@
       "zh": "職業暴露",
       "en": "Occupational exposure",
       "category": "exposure",
-      "count": 12
+      "count": 13
     },
     {
       "id": "m_review",
@@ -103,14 +103,14 @@
       "zh": "clade 2.3.4.4b",
       "en": "Clade 2.3.4.4b",
       "category": "clade",
-      "count": 4
+      "count": 6
     },
     {
       "id": "t_mammadapt",
       "zh": "哺乳類適應",
       "en": "Mammalian adaptation",
       "category": "theme",
-      "count": 3
+      "count": 4
     },
     {
       "id": "pb2_e627k",
@@ -138,7 +138,7 @@
       "zh": "跨物種傳播",
       "en": "Cross-species transmission",
       "category": "theme",
-      "count": 7
+      "count": 8
     },
     {
       "id": "host_cat",
@@ -229,7 +229,7 @@
       "zh": "實驗",
       "en": "Experimental",
       "category": "method",
-      "count": 2
+      "count": 3
     },
     {
       "id": "m_spatiotemp",
@@ -243,14 +243,14 @@
       "zh": "H5 亞型",
       "en": "H5 subtype",
       "category": "subtype",
-      "count": 3
+      "count": 4
     },
     {
       "id": "m_serosurvey",
       "zh": "血清調查",
       "en": "Serosurvey",
       "category": "method",
-      "count": 5
+      "count": 6
     },
     {
       "id": "exp_lpm",
@@ -271,7 +271,7 @@
       "zh": "職業族群保護",
       "en": "Occupational protection",
       "category": "theme",
-      "count": 4
+      "count": 5
     },
     {
       "id": "h7n9",
@@ -334,7 +334,7 @@
       "zh": "H5N8",
       "en": "H5N8",
       "category": "subtype",
-      "count": 3
+      "count": 4
     },
     {
       "id": "m_kernel",
@@ -355,7 +355,7 @@
       "zh": "H5N2",
       "en": "H5N2",
       "category": "subtype",
-      "count": 4
+      "count": 5
     },
     {
       "id": "host_mammal",
@@ -370,6 +370,13 @@
       "en": "International regulation",
       "category": "theme",
       "count": 2
+    },
+    {
+      "id": "host_swine",
+      "zh": "豬",
+      "en": "Swine",
+      "category": "host",
+      "count": 1
     }
   ],
   "edges": [
@@ -576,12 +583,12 @@
     {
       "source": "clade_2344b",
       "target": "h5n1",
-      "weight": 4
+      "weight": 5
     },
     {
       "source": "h5n1",
       "target": "t_mammadapt",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "h5n1",
@@ -601,7 +608,7 @@
     {
       "source": "h5n1",
       "target": "t_crossspecies",
-      "weight": 5
+      "weight": 6
     },
     {
       "source": "h5n1",
@@ -621,7 +628,7 @@
     {
       "source": "clade_2344b",
       "target": "t_mammadapt",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "clade_2344b",
@@ -641,7 +648,7 @@
     {
       "source": "clade_2344b",
       "target": "t_crossspecies",
-      "weight": 4
+      "weight": 5
     },
     {
       "source": "clade_2344b",
@@ -681,7 +688,7 @@
     {
       "source": "t_crossspecies",
       "target": "t_mammadapt",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "m_review",
@@ -1111,7 +1118,7 @@
     {
       "source": "h5n1",
       "target": "m_experiment",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "exp_food",
@@ -1241,12 +1248,12 @@
     {
       "source": "exp_occup",
       "target": "h5_generic",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "h5_generic",
       "target": "m_serosurvey",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "h5_generic",
@@ -1266,7 +1273,7 @@
     {
       "source": "exp_occup",
       "target": "m_serosurvey",
-      "weight": 5
+      "weight": 6
     },
     {
       "source": "exp_occup",
@@ -1281,7 +1288,7 @@
     {
       "source": "exp_occup",
       "target": "host_poultry",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "exp_occup",
@@ -1351,7 +1358,7 @@
     {
       "source": "host_poultry",
       "target": "m_serosurvey",
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "h5_generic",
@@ -1361,7 +1368,7 @@
     {
       "source": "h5_generic",
       "target": "host_poultry",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "host_wildbird",
@@ -1381,7 +1388,7 @@
     {
       "source": "exp_occup",
       "target": "t_occprotect",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "h5n6",
@@ -1586,7 +1593,7 @@
     {
       "source": "h5n8",
       "target": "host_poultry",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "exp_aerosol",
@@ -1671,7 +1678,7 @@
     {
       "source": "h5n2",
       "target": "host_poultry",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "h5n2",
@@ -1771,7 +1778,7 @@
     {
       "source": "h5n2",
       "target": "h5n8",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "h5n2",
@@ -1831,12 +1838,12 @@
     {
       "source": "exp_occup",
       "target": "h5n2",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "h5n2",
       "target": "t_occprotect",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "exp_lpm",
@@ -1851,6 +1858,126 @@
     {
       "source": "h5n8",
       "target": "m_review",
+      "weight": 1
+    },
+    {
+      "source": "h5n1",
+      "target": "host_swine",
+      "weight": 1
+    },
+    {
+      "source": "clade_2344b",
+      "target": "host_swine",
+      "weight": 1
+    },
+    {
+      "source": "clade_2344b",
+      "target": "m_experiment",
+      "weight": 1
+    },
+    {
+      "source": "host_swine",
+      "target": "t_mammadapt",
+      "weight": 1
+    },
+    {
+      "source": "host_swine",
+      "target": "t_crossspecies",
+      "weight": 1
+    },
+    {
+      "source": "host_swine",
+      "target": "m_experiment",
+      "weight": 1
+    },
+    {
+      "source": "m_experiment",
+      "target": "t_mammadapt",
+      "weight": 1
+    },
+    {
+      "source": "m_experiment",
+      "target": "t_crossspecies",
+      "weight": 1
+    },
+    {
+      "source": "h5_generic",
+      "target": "h5n2",
+      "weight": 1
+    },
+    {
+      "source": "h5_generic",
+      "target": "h5n8",
+      "weight": 1
+    },
+    {
+      "source": "clade_2344b",
+      "target": "h5_generic",
+      "weight": 1
+    },
+    {
+      "source": "h5_generic",
+      "target": "t_occprotect",
+      "weight": 1
+    },
+    {
+      "source": "clade_2344b",
+      "target": "h5n2",
+      "weight": 1
+    },
+    {
+      "source": "h5n2",
+      "target": "m_serosurvey",
+      "weight": 1
+    },
+    {
+      "source": "clade_2344b",
+      "target": "h5n8",
+      "weight": 1
+    },
+    {
+      "source": "exp_occup",
+      "target": "h5n8",
+      "weight": 1
+    },
+    {
+      "source": "h5n8",
+      "target": "m_serosurvey",
+      "weight": 1
+    },
+    {
+      "source": "h5n8",
+      "target": "t_occprotect",
+      "weight": 1
+    },
+    {
+      "source": "clade_2344b",
+      "target": "host_poultry",
+      "weight": 1
+    },
+    {
+      "source": "clade_2344b",
+      "target": "exp_occup",
+      "weight": 1
+    },
+    {
+      "source": "clade_2344b",
+      "target": "m_serosurvey",
+      "weight": 1
+    },
+    {
+      "source": "clade_2344b",
+      "target": "t_occprotect",
+      "weight": 1
+    },
+    {
+      "source": "host_poultry",
+      "target": "t_occprotect",
+      "weight": 1
+    },
+    {
+      "source": "m_serosurvey",
+      "target": "t_occprotect",
       "weight": 1
     }
   ]
